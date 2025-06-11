@@ -13,7 +13,7 @@ const config: Config = {
   },
 
   url: 'https://zappbrandigan.github.io/',
-  baseUrl: '/',
+  baseUrl: '/wiki_docs/',
 
   organizationName: 'zappbrandigan', 
   projectName: 'wiki_docs',
