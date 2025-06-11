@@ -12,7 +12,7 @@ const config: Config = {
     v4: true, 
   },
 
-  url: 'https://docs.tulbox.app',
+  url: 'https://zappbrandigan.github.io/',
   baseUrl: '/',
 
   organizationName: 'zappbrandigan', 
