@@ -53,7 +53,7 @@ collect.
 
 **Copyright Registration** - A record stating the date of a work and its content so that in the event of infringement or plagiarism, the copyright owner can produce a copy of the work from an official source.
 
-**Copyright Royalty Board (CRB)** - The CRB consists of three U.S. judges who are responsible for setting statutory royalty rates for compulsory mechanical licenses. This board periodically sets the statutory mechanical royalty rate, which for physical and download track sales is currently 9.1 cents per track or 1.75 cents for each minute of playing time, whichever is greater. Visit the [Copyright Royalty Board website](www.crb.gov) for more.
+**Copyright Royalty Board (CRB)** - The CRB consists of three U.S. judges who are responsible for setting statutory royalty rates for compulsory mechanical licenses. This board periodically sets the statutory mechanical royalty rate, which for physical and download track sales is currently 9.1 cents per track or 1.75 cents for each minute of playing time, whichever is greater. Visit the [Copyright Royalty Board website](https://www.crb.gov) for more.
 
 ## D
 
@@ -71,7 +71,7 @@ collect.
 
 ## I
 
-**Intellectual Property** - Any conceptual product that has commercial value. This includes any form of creative expression and knowledge (such as symbols, names, and images), whether copyrighted or not. Intellectual property can be protected through copyrights, patents, trademarks, and trade secrets laws. For example, Nike’s signature checkmark logo is protected through trademark, and Coca-Cola’s secret recipe for Coke is protected through trade secrets law. Visit the [World Intellectual Property Organization](www.wipo.int) for more information.
+**Intellectual Property** - Any conceptual product that has commercial value. This includes any form of creative expression and knowledge (such as symbols, names, and images), whether copyrighted or not. Intellectual property can be protected through copyrights, patents, trademarks, and trade secrets laws. For example, Nike’s signature checkmark logo is protected through trademark, and Coca-Cola’s secret recipe for Coke is protected through trade secrets law. Visit the [World Intellectual Property Organization](https://www.wipo.int) for more information.
 
 **Interactive/Non-Interactive Streaming** - Interactive or “on-demand” streaming services (like Spotify, Tidal, or Apple Music) allow listeners to choose what recordings they listen to, and they generate both performance and mechanical royalties. Non-interactive streaming services (notably Pandora) - sometimes loosely referred to as streaming radio - in which the listener does not choose the specific songs, pay only performance royalties.
 
@@ -147,7 +147,7 @@ collect.
 
 ## U
 
-**U.S. Copyright Office** - The U.S. government body that maintains records of copyright registration. A work is technically copyrighted once it’s in tangible form, but registering it with the U.S. copyright office is an additional way to protect its copyright. In order to file an infringement action (i.e., to recover damages or stop someone from using a writers' copyright without permission), the work needs to be registered with the U.S. Copyright Office. Visit [copyright.gov](copyright.gov) for more.
+**U.S. Copyright Office** - The U.S. government body that maintains records of copyright registration. A work is technically copyrighted once it’s in tangible form, but registering it with the U.S. copyright office is an additional way to protect its copyright. In order to file an infringement action (i.e., to recover damages or stop someone from using a writers' copyright without permission), the work needs to be registered with the U.S. Copyright Office. Visit [copyright.gov](https://copyright.gov) for more.
 
 **Unallocated Royalties** – Sometimes called “black box” or "suspense" royalties, these are royalties for which a publisher or writer is named but cannot be traced by a pay source. Writers who earn royalties for usage but cannot be found are often referred to as “lost” writers. After an established waiting period, these royalties are no longer payable and are generally distributed by top earners by market share.
 
