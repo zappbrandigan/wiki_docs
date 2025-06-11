@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Wiki Blog</title>
-        <link>https://zappbrandigan.github.io/wiki_docs/blog</link>
+        <link>https://zappbrandigan.github.io/blog</link>
         <description>Wiki Blog</description>
         <lastBuildDate>Mon, 09 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Welcome!]]></title>
-            <link>https://zappbrandigan.github.io/wiki_docs/blog/welcome</link>
-            <guid>https://zappbrandigan.github.io/wiki_docs/blog/welcome</guid>
+            <link>https://zappbrandigan.github.io/blog/welcome</link>
+            <guid>https://zappbrandigan.github.io/blog/welcome</guid>
             <pubDate>Mon, 09 Jun 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Hi there — I’m so glad you’ve found your way here. This site is both a user guide for TūlBOX, a growing collection of automation tools, and a living knowledge base for topics in music publishing, royalty collection, and the business of rights management.]]></description>
             <content:encoded><![CDATA[<p>Hi there — I’m so glad you’ve found your way here. This site is both a user guide for TūlBOX, a growing collection of automation tools, and a living knowledge base for topics in music publishing, royalty collection, and the business of rights management.</p>
