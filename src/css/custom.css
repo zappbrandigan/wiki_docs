@@ -1,0 +1,22 @@
+:root {
+  --ifm-color-primary: #2563eb;          /* Tailwind blue-600 */
+  --ifm-color-primary-dark: #1d4ed8;     /* blue-700 */
+  --ifm-color-primary-darker: #1e40af;   /* blue-800 */
+  --ifm-color-primary-darkest: #1e3a8a;  /* blue-900 */
+  --ifm-color-primary-light: #3b82f6;    /* blue-500 */
+  --ifm-color-primary-lighter: #60a5fa;  /* blue-400 */
+  --ifm-color-primary-lightest: #93c5fd; /* blue-300 */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #60a5fa;          /* blue-400 */
+  --ifm-color-primary-dark: #3b82f6;     /* blue-500 */
+  --ifm-color-primary-darker: #2563eb;   /* blue-600 */
+  --ifm-color-primary-darkest: #1d4ed8;  /* blue-700 */
+  --ifm-color-primary-light: #93c5fd;    /* blue-300 */
+  --ifm-color-primary-lighter: #bfdbfe;  /* blue-200 */
+  --ifm-color-primary-lightest: #dbeafe; /* blue-100 */
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+}

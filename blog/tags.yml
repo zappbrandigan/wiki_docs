@@ -1,0 +1,92 @@
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
+intro:
+  label: Intro
+  permalink: /intro
+  description: Introductory and overview content
+wiki:
+  label: Wiki
+  permalink: /wiki
+  description: Wiki and user guide content
+glossary:
+  label: Glossary
+  permalink: /glossary
+  description: Glossary and definitions
+definitions:
+  label: Definitions
+  permalink: /definitions
+  description: Definitions of music publishing terms
+copyright:
+  label: Copyright
+  permalink: /copyright
+  description: Copyright law and basics
+legal:
+  label: Legal
+  permalink: /legal
+  description: Legal aspects of music publishing
+music:
+  label: Music
+  permalink: /music
+  description: Music industry and rights
+publishing:
+  label: Publishing
+  permalink: /publishing
+  description: Music publishing topics
+PRO:
+  label: PRO
+  permalink: /pro
+  description: Performing Rights Organizations
+rights:
+  label: Rights
+  permalink: /rights
+  description: Rights management
+licensing:
+  label: Licensing
+  permalink: /licensing
+  description: Licensing and sync
+film:
+  label: Film
+  permalink: /film
+  description: Film music and sync
+tv:
+  label: TV
+  permalink: /tv
+  description: TV music and sync
+sync:
+  label: Sync
+  permalink: /sync
+  description: Synchronization licensing
+agreements:
+  label: Agreements
+  permalink: /agreements
+  description: Publishing agreements
+admin:
+  label: Admin
+  permalink: /admin
+  description: Publishing administration
+collection-societies:
+  label: Collection Societies
+  permalink: /collection-societies
+  description: Collection societies for royalties
+CMO:
+  label: CMO
+  permalink: /cmo
+  description: Collective Management Organizations
+MRO:
+  label: MRO
+  permalink: /mro
+  description: Mechanical Rights Organizations
+RAE:
+  label: RAE
+  permalink: /rae
+  description: Rights Administration Entities
+DSPs:
+  label: DSPs
+  permalink: /dsps
+  description: Digital Service Providers
+royalty-sources:
+  label: Royalty Sources
+  permalink: /royalty-sources
+  description: Sources of music royalties
