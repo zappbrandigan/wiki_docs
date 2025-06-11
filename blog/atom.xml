@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://zappbrandigan.github.io/blog</id>
+    <title>Wiki Blog</title>
+    <updated>2025-06-09T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://zappbrandigan.github.io/blog"/>
+    <subtitle>Wiki Blog</subtitle>
+    <icon>https://zappbrandigan.github.io/img/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome!]]></title>
+        <id>https://zappbrandigan.github.io/blog/welcome</id>
+        <link href="https://zappbrandigan.github.io/blog/welcome"/>
+        <updated>2025-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hi there — I’m so glad you’ve found your way here. This site is both a user guide for TūlBOX, a growing collection of automation tools, and a living knowledge base for topics in music publishing, royalty collection, and the business of rights management.]]></summary>
+        <content type="html"><![CDATA[<p>Hi there — I’m so glad you’ve found your way here. This site is both a user guide for TūlBOX, a growing collection of automation tools, and a living knowledge base for topics in music publishing, royalty collection, and the business of rights management.</p>
+<p>A little about me: my background is in math and computer science — not music publishing. Like many who end up working behind the scenes in entertainment, I’ve had to pick up a lot on the fly. As I learn the ins and outs of music publishing on the job, I’ve been organizing what I’ve found helpful, confusing, or just worth remembering into notes, guides, and tools — and adding them here.</p>
+<p>Whether you’re new to music publishing, trying to automate a few tedious workflows, or just curious about how it all fits together, I hope this site helps make things a bit clearer.</p>
+<p>Thanks for stopping by!</p>]]></content>
+        <author>
+            <name>Brandon Johnson</name>
+            <uri>https://www.brandontyler.dev</uri>
+        </author>
+        <category label="Hello" term="Hello"/>
+    </entry>
+</feed>
