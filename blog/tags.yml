@@ -90,3 +90,23 @@ royalty-sources:
   label: Royalty Sources
   permalink: /royalty-sources
   description: Sources of music royalties
+CWR:
+  label: CWR
+  permalink: /cwr
+  description: Common Works Registration standard for music publishing
+EBR:
+  label: EBR
+  permalink: /ebr
+  description: Electronic Batch Registration for music publishing
+technology:
+  label: Technology
+  permalink: /technology
+  description: Music publishing technology and tools
+registration:
+  label: Registration
+  permalink: /registration
+  description: Work registration and metadata
+metadata:
+  label: Metadata
+  permalink: /metadata
+  description: Music publishing metadata and data quality
