@@ -119,11 +119,7 @@ const config: Config = {
             {
               label: 'Updates',
               to: '/blog',
-            },
-            {
-              label: 'ZappBrandigan',
-              href: 'https://github.com/zappbrandigan',
-            },
+            }
           ],
         },
       ],

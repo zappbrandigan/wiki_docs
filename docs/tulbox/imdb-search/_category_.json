@@ -1,7 +1,5 @@
 {
   "label": "IMDb Search",
   "position": 3,
-  "link": {
-    "type": "generated-index"
-  }
+  "collapsed": true
 }
