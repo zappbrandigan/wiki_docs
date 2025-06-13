@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[8121],{8070:l=>{l.exports=JSON.parse('{"tags":[{"label":"tulbox","permalink":"/blog/tags/tulbox","count":1},{"label":"Hello","permalink":"/blog/tags/hello","description":"Hello tag description","count":1}]}')}}]);

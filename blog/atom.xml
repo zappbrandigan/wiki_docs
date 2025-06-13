@@ -2,11 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zappbrandigan.github.io/blog</id>
     <title>Wiki Blog</title>
-    <updated>2025-06-09T00:00:00.000Z</updated>
+    <updated>2025-06-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zappbrandigan.github.io/blog"/>
     <subtitle>Wiki Blog</subtitle>
     <icon>https://zappbrandigan.github.io/img/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[TūlBOX V3]]></title>
+        <id>https://zappbrandigan.github.io/blog/tulbox</id>
+        <link href="https://zappbrandigan.github.io/blog/tulbox"/>
+        <updated>2025-06-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 TūlBOX v3 is Live!]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-tūlbox-v3-is-live">🚀 TūlBOX v3 is Live!<a href="https://zappbrandigan.github.io/blog/tulbox#-tu%CC%84lbox-v3-is-live" class="hash-link" aria-label="Direct link to 🚀 TūlBOX v3 is Live!" title="Direct link to 🚀 TūlBOX v3 is Live!">​</a></h2>
+<p>I'm excited to announce that <strong>TūlBOX v3</strong> is officially live!</p>
+<p>This release brings a smoother experience, sharper performance, and improved APIs. The existing tools have been refined based on feedback from real-world use and the entire app has been rebuilt from the ground up. It is now ready to host additional tools as they get released!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-whats-new-in-v3">✅ What’s New in v3<a href="https://zappbrandigan.github.io/blog/tulbox#-whats-new-in-v3" class="hash-link" aria-label="Direct link to ✅ What’s New in v3" title="Direct link to ✅ What’s New in v3">​</a></h3>
+<ul>
+<li><strong>Improved Speed</strong> – Apps load faster and respond more smoothly.</li>
+<li><strong>Cleaner UI</strong> – I redesigned the tools for clarity and flexibility.</li>
+<li><strong>More Reliable Automation</strong> – Updated back-end pipelines to handle complex files more gracefully.</li>
+<li><strong>Better Metadata Handling</strong> – The IMDb tool has a custom built API.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-why-this-matters">💡 Why This Matters<a href="https://zappbrandigan.github.io/blog/tulbox#-why-this-matters" class="hash-link" aria-label="Direct link to 💡 Why This Matters" title="Direct link to 💡 Why This Matters">​</a></h3>
+<p>This update makes it easier to add new tools that are in the works, such as CWR conversion and automated cue sheet stamping.</p>
+<p>This is a 00 release, so there will be blood! I mean bugs. Reach out if you run into anything weird.</p>]]></content>
+        <author>
+            <name>Brandon Johnson</name>
+        </author>
+        <category label="tulbox" term="tulbox"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome!]]></title>
         <id>https://zappbrandigan.github.io/blog/welcome</id>
@@ -19,7 +43,6 @@
 <p>Thanks for stopping by!</p>]]></content>
         <author>
             <name>Brandon Johnson</name>
-            <uri>https://www.brandontyler.dev</uri>
         </author>
         <category label="Hello" term="Hello"/>
     </entry>
