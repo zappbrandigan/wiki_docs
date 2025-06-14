@@ -35,7 +35,7 @@ For example, using U2’s cover of “Helter Skelter” in a film requires a syn
 Major publishers like Sony/ATV and Warner Chappell leverage industry connections to secure high-profile placements, while independent publishers (e.g., Anara Publishing) focus on niche markets and emerging artists.  
 
 ## Strategic Role of Music in Visual Media  
-Music heightens emotional impact and narrative depth in films and TV shows. Publishers collaborate with music supervisors to curate tracks that align with a project’s tone, as seen in iconic franchises like *Star Wars* and *James Bond*. Sync placements also provide independent artists exposure to global audiences, as demonstrated by Anara Publishing’s partnerships with Netflix and Hulu.  
+Music heightens emotional impact and narrative depth in films and TV shows. Publishers collaborate with music supervisors to curate tracks that align with a project’s tone, as seen in iconic franchises like *Star Wars* and *James Bond*. Sync placements also provide independent artists' exposure to global audiences, as demonstrated by Anara Publishing’s partnerships with Netflix and Hulu.  
 
 ## Challenges and Evolution  
 The shift to streaming has amplified demand for sync opportunities, with platforms like Spotify and Apple Music driving discoverability. However, complexities in global royalty distribution and fragmented copyright laws require publishers to maintain robust administrative systems.  

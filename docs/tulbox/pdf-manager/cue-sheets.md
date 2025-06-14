@@ -28,9 +28,9 @@ LONG SHOW TITLE   Long Episode. . .  Ep No. 1234
 ```
 
 Here are a few additional features that happen in the background:
-- The filename will be 60 characters or less.
+- The filename will be 60 characters or fewer.
 - The production title will be converted to uppercase.
-- The episode title will be converted to titlecase.
+- The episode title will be converted to title case.
 - Extra whitespace will be removed.
 - The filename extension will be lowercase when the files are downloaded.
 - The characters `,.'!` will be removed if it is the last character before `. . .`

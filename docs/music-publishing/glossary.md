@@ -25,7 +25,7 @@ Affiliation means becoming a member of an organization or society and granting t
 ## B
 
 **Blanket License** -
-A license issued by a rightsholder or their representative that provides for use of their entire catalog for a predetermined period of time. Examples of blanket licenses include those signed by digital service providers like Spotify with performing and mechanical rights organizations, or the agreements that ra
+A license issued by a rights holder or their representative that provides for use of their entire catalog for a predetermined period of time. Examples of blanket licenses include those signed by digital service providers like Spotify with performing and mechanical rights organizations.
 
 ## C
 
@@ -45,7 +45,7 @@ collect.
 
 **Composition** - The elements that make a specific song (not a specific recording) unique, such as melody, lyrics, and beat. A composition can have many recordings.
 
-**Compulsory License** - An exception to U.S. copyright law that grants permission to anyone wishing to use a songwriter’s work - whether or not the songwriter wants to grant the license - if the song has already been commercially released. Compulsory licenses must be issued for physical reproductions of a song (such as an LP, CD, or digital download), streaming a song, for use in cable television rebroadcast, on the Public Broadcasting System (PBS), or in jukeboxes.
+**Compulsory License** - An exception to U.S. copyright law that grants permission to anyone wishing to use a songwriter’s work - whether the songwriter wants to grant the license - if the song has already been commercially released. Compulsory licenses must be issued for physical reproductions of a song (such as an LP, CD, or digital download), streaming a song, for use in cable television rebroadcast, on the Public Broadcasting System (PBS), or in jukeboxes.
 
 **Copyright** - The rights granted by law to the creator of an original work. A creator (e.g., a songwriter or author) is entitled to the right to copy, distribute, and adapt their work. Under U.S. copyright law, as soon as a writer makes a tangible copy of a work, the writer owns its copyright. Put another way, if you imagine a song in your head, you have no copyright—but once you write the song down or record it, you are its copyright holder.
 
@@ -67,7 +67,7 @@ collect.
 
 ## F
 
-**Fair Use** - An exception to the exclusive rights granted to the copyright holder of a creative work. If something falls under the doctrine of “fair use,” another party can use the copyrighted material in a limited way without acquiring permission from the rightsholder. In certain situations, parody, commentary, search engines, criticism, news reporting, research, teaching, library archiving, and scholarship may be considered fair use.
+**Fair Use** - An exception to the exclusive rights granted to the copyright holder of a creative work. If something falls under the doctrine of “fair use,” another party can use the copyrighted material in a limited way without acquiring permission from the rights holder. In certain situations, parody, commentary, search engines, criticism, news reporting, research, teaching, library archiving, and scholarship may be considered fair use.
 
 ## I
 
@@ -89,7 +89,7 @@ collect.
 
 **Mechanical License** - A mechanical license is granted by a rightsholder to a licensee that enables them to reproduce (digitally or physically) an original composition.
 
-**Mechanical Licensing Collective (The MLC)** - The MLC is responsible for providing blanket licenses to all streaming services in the U.S., and to collect and distribute all resulting royalties.  The MLC’s remit is to attempt actively to match as many unmatched royalties and compositions with the correct rightsholders as possible, and in that connection, it is responsible for creating and maintaining a publicly-accessible database of works, songwriters, rightsholders, and related recordings. The MLC was established as part of 2018's Music Modernization Act.
+**Mechanical Licensing Collective (The MLC)** - The MLC is responsible for providing blanket licenses to all streaming services in the U.S., and to collect and distribute all resulting royalties.  The MLC’s remit is to attempt actively to match as many unmatched royalties and compositions with the correct rights holders as possible, and in that connection, it is responsible for creating and maintaining a publicly-accessible database of works, songwriters, rights holders, and related recordings. The MLC was established as part of 2018's Music Modernization Act.
 
 **Mechanical Rights Organization (MRO)** – A type of collection society that is responsible for the administration of mechanical licenses and, depending on the MRO, the collection and payout of mechanical royalties to publishers. Oftentimes, if a territory or country does not have a single CMO responsible for both performance and mechanical royalty collections, they split these responsibilities between a PRO and a MRO.
 
@@ -119,7 +119,7 @@ collect.
 
 **Printed Music Royalties** - Royalties collected for the sale of printed sheet music, including musical notation and lyrics, separately or in combination. Printed music royalties are generally paid directly to the publisher and will vary depending on the usage type and whether it’s a physical or digital reproduction.
 
-**Public Performance** - Public performance includes transmission or broadcast of a work outside of a closed group, and includes digital streaming, television or radio broadcast, played over the speakers in clubs and restaurants, on websites, or on other broadcasting systems.
+**Public Performance** - Public performance includes transmission or broadcast of a work outside a closed group, and includes digital streaming, television or radio broadcast, played over the speakers in clubs and restaurants, on websites, or on other broadcasting systems.
 
 **Publisher Share** - The publisher share, or “publisher’s share of performance,” is the portion of performance royalties that is paid over to a publisher, publishing administrator, or to the songwriter if they are self-published. It is distinguished in this way from the writer share.
 
@@ -131,7 +131,7 @@ collect.
 
 **Retroactive Royalties** - Retroactive royalties are unallocated royalties that are waiting to be paid out to the copyright owners. This happens when songs aren’t registered correctly or the contact information for the songwriter is unavailable. These royalties generally sit at the collection society for a length of time, which varies based on the society, until they enter the black box. Refer to unallocated royalties for more.
 
-**Rights Administration Entity (RAE)** - RAEs are a type of organization that issues mechanical licenses and collects and distributes mechanical royalties. Unlike CMOs, RAEs are for-profit organizations, they can discriminate as to who they accept as members, and do not need legal permission to operate as they are privately-owned. An example in the U.S. is Music Reports (MRI).
+**Rights Administration Entity (RAE)** - RAEs are a type of organization that issues mechanical licenses and collects and distributes mechanical royalties. Unlike CMOs, RAEs are for-profit organizations, they can discriminate as to whom they accept as members, and do not need legal permission to operate as they are privately-owned. An example in the U.S. is Music Reports (MRI).
 
 **Royalties** - Payments made on a per-use or blanket basis as established by a license agreement. In the context of music publishing, royalties refer to the income earned through the use of a song. This can include album sales, digital downloads, streams, radio airplay, and a host of other forms through which songs earn income for songwriters and music publishers.
 
@@ -143,7 +143,7 @@ collect.
 
 **Split Sheet** - A signed document that outlines the shares of an individual musical work each co-writer will control. A split agreement should be finalized between collaborators before it is exploited commercially in any way, including commercial release to streaming services.
 
-**Sync License** - An agreement for the use of music in an audiovisual project. Sync (short for “synchronization”) licenses must be obtained from both the composition rightsholder and the recording rightsholder to clear a usage.
+**Sync License** - An agreement for the use of music in an audiovisual project. Sync (short for “synchronization”) licenses must be obtained from both the composition rights holder and the recording rights holder to clear a usage.
 
 ## U
 
@@ -151,10 +151,10 @@ collect.
 
 **Unallocated Royalties** – Sometimes called “black box” or "suspense" royalties, these are royalties for which a publisher or writer is named but cannot be traced by a pay source. Writers who earn royalties for usage but cannot be found are often referred to as “lost” writers. After an established waiting period, these royalties are no longer payable and are generally distributed by top earners by market share.
 
-**User-Generated Content (UGC)** - User-generated content, or “UGC,” in the context of song rights, refers to content created by a platform’s users (e.g. YouTube or TikTok) that contains copyrighted music. This is often unlicensed or subject to a blanket use license between the platform and the rightsholder.
+**User-Generated Content (UGC)** - User-generated content, or “UGC,” in the context of song rights, refers to content created by a platform’s users (e.g. YouTube or TikTok) that contains copyrighted music. This is often unlicensed or subject to a blanket use license between the platform and the rights holder.
 
 ## W
 
 **Work-For-Hire** - In this context, an agreement in which a songwriter composes a musical work within the scope of their employment for another entity and does not retain copyright or publishing ownership over the work. Work-for-hire agreements are common in film, TV, and advertising, in which production companies often hire composers to create music specifically for their projects. Instead of receiving an initial fee and subsequent royalties, a work-for-hire creator receives only a one-time up-front fee for their work.
 
-**Writer Share** - The writer share, or “writer’s share of performance,” is the portion of performance royalties that is paid directly to a songwriter, whether or not they have a publisher. It is distinguished in this way from the publisher share.
+**Writer Share** - The writer share, or “writer’s share of performance,” is the portion of performance royalties that is paid directly to a songwriter, whether they have a publisher. It is distinguished in this way from the publisher share.

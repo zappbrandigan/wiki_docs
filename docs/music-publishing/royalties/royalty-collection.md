@@ -71,7 +71,7 @@ An admin may need to communicate with one or both of these organizations.
 
 RAEs are **for-profit** businesses that collect and distribute royalties in a similar way to CMOs, but they operate under different rules. Unlike CMOs, RAEs:
 
-* Can be selective about who they work with,
+* Can be selective about whom they work with,
 * Are **privately owned**, and
 * Typically partner with publishers or rights holders directly.
 
