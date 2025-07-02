@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[8947],{6600:a=>{a.exports=JSON.parse('{"authors":[{"name":"Brandon Johnson","title":"Coordinator, Film and TV Admin","page":{"permalink":"/blog/authors/zappbrandigan"},"imageURL":"https://avatars.githubusercontent.com/u/482919?v=4","key":"zappbrandigan","count":2}]}')}}]);
