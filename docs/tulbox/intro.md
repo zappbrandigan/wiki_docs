@@ -3,7 +3,6 @@ sidebar_position: 1
 title: Introduction
 slug: intro
 ---
-<span class="theme-doc-version-badge badge badge--secondary">Version: 3.0.0</span>
 
 # Welcome!
 

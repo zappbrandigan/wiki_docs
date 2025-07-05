@@ -8,7 +8,7 @@ The PDF Manager helps you rename your PDF files quickly and easily.
 
 **How to use:**
 1. **Upload Files:** Drag and drop your PDF files into the upload area, or click to select files from your computer. Only PDF files are accepted at this time. If you would like to add support for additional file types, let me know.
-    - Maximum file count for upload is set to 100 PDFs; this is not a system limitation, just a practical decision as changes tend to have unintentional effects when dealing in large volume. If you need this limit to be increased, reach out GitHub.
+    - Maximum file count for upload is set to 100 PDFs; this is not a system limitation, just a practical decision as changes tend to have unintentional effects when dealing in large volume. If you need this limit to be increased, let me know via the links at the bottom of the page on TūlBOX.
 2. **View & Edit:** See your files in a table. You can edit file names directly by clicking the edit icon next to each name.
 3. **Batch Rename:** Use the "Search & Replace" section to create rules for renaming files in bulk. You can use regular expressions for advanced patterns. Click "Apply Rules" to update all file names at once.
     - Rules can be chained together and applied sequentially.
