@@ -2,11 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zappbrandigan.github.io/blog</id>
     <title>Wiki Blog</title>
-    <updated>2025-07-02T00:00:00.000Z</updated>
+    <updated>2025-07-14T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zappbrandigan.github.io/blog"/>
     <subtitle>Wiki Blog</subtitle>
     <icon>https://zappbrandigan.github.io/img/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[CWR Converter (beta)]]></title>
+        <id>https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update</id>
+        <link href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update"/>
+        <updated>2025-07-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The beta is live on TūlBOX.]]></summary>
+        <content type="html"><![CDATA[<p>The beta is live on TūlBOX.
+This post dives into the latest <strong>performance</strong> and <strong>usability</strong> upgrades.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-performance--scale">⚡️ Performance &amp; Scale<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#%EF%B8%8F-performance--scale" class="hash-link" aria-label="Direct link to ⚡️ Performance &amp; Scale" title="Direct link to ⚡️ Performance &amp; Scale">​</a></h2>
+<table><thead><tr><th>New Tech</th><th>What it solves</th></tr></thead><tbody><tr><td><strong>Virtualized Raw Viewer &amp; Report Tables</strong></td><td>Rows render only when visible, so even 100 k-line CWRs stay buttery smooth.</td></tr><tr><td><strong>Web Workers</strong></td><td>Parsing now runs off the main thread, keeping the UI responsive—even with 100 MB+ files.</td></tr></tbody></table>
+<p><em>Result: can now handle large transmissions <code>~125-150 Mb</code> depending on your systems capabilites.</em></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-smarter-highlighted-search">🔍 Smarter, Highlighted Search<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#-smarter-highlighted-search" class="hash-link" aria-label="Direct link to 🔍 Smarter, Highlighted Search" title="Direct link to 🔍 Smarter, Highlighted Search">​</a></h2>
+<p>Find that elusive record in seconds:</p>
+<ul>
+<li><strong>Unified search bar</strong> works across the virtualized viewer.</li>
+<li><strong>Live highlighting</strong> pins every match in-view as you type.</li>
+<li><strong>Next / Previous</strong> arrows (or shortcuts below) cycle through matches and auto-scroll.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-pseudo-full-screen-raw-viewer">🖥️ Pseudo Full-Screen Raw Viewer<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#%EF%B8%8F-pseudo-full-screen-raw-viewer" class="hash-link" aria-label="Direct link to 🖥️ Pseudo Full-Screen Raw Viewer" title="Direct link to 🖥️ Pseudo Full-Screen Raw Viewer">​</a></h2>
+<p>Need extra space? Hit <strong><code>⌘/Ctrl + e</code></strong> or click the new “expand” icon to pop the Raw Viewer into a focused, edge-to-edge mode. Perfect for side-by-side edits.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-field-tooltips--now-toggleable">🛈 Field Tooltips → Now Toggleable<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#-field-tooltips--now-toggleable" class="hash-link" aria-label="Direct link to 🛈 Field Tooltips → Now Toggleable" title="Direct link to 🛈 Field Tooltips → Now Toggleable">​</a></h2>
+<p>Mouse-over labels still reveal field names &amp; definitions, but if you already know your <strong>SPU</strong> from your <strong>SWR</strong>, press <strong><code>⌘/Ctrl + k</code></strong> to hide them and reclaim that bit of horizontal room.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-shortcut-recap">⌨️ Shortcut Recap<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#%EF%B8%8F-shortcut-recap" class="hash-link" aria-label="Direct link to ⌨️ Shortcut Recap" title="Direct link to ⌨️ Shortcut Recap">​</a></h2>
+<table><thead><tr><th>Action</th><th>macOS / Windows</th></tr></thead><tbody><tr><td>Toggle Search</td><td><code>⌘/Ctrl + f</code></td></tr><tr><td>Expand / Collapse Raw Viewer</td><td><code>⌘/Ctrl + e</code></td></tr><tr><td>Toggle Tooltips</td><td><code>⌘/Ctrl + k</code></td></tr><tr><td>Next / Prev Match</td><td><code>⌘/Ctrl + ↓</code> • <code>⌘/Ctrl + ↑</code></td></tr></tbody></table>
+<p>(You’ll find them in the in-app <strong>?</strong> menu too.)</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-miscellaneous-fixes">🛠 Miscellaneous Fixes<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#-miscellaneous-fixes" class="hash-link" aria-label="Direct link to 🛠 Miscellaneous Fixes" title="Direct link to 🛠 Miscellaneous Fixes">​</a></h2>
+<ul>
+<li>Batch report now includes <strong>dynamic</strong> writer contribution calculations.</li>
+<li>AKA report now lists <strong>unique</strong> titles only.</li>
+<li>NAT record support added via updated <strong>cwr-parser</strong>.</li>
+<li>Copy-paste from AKA titles preserves correct column order.</li>
+<li>PDF export no longer fails when template contains empty header cells.</li>
+<li>Minor visual polish &amp; accessibility improvements.</li>
+</ul>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-try-it--tell-me-what-breaks">👉 Try it &amp; tell me what breaks<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#-try-it--tell-me-what-breaks" class="hash-link" aria-label="Direct link to 👉 Try it &amp; tell me what breaks" title="Direct link to 👉 Try it &amp; tell me what breaks">​</a></h2>
+<p>The beta is live at <strong>TūlBOX → CWR Converter</strong>. As always, this release is best served with fresh feedback:</p>
+<p><em>Found a glitch?</em> Copy the <strong>Bug Entry Template</strong> from the docs and add it to the tracker—or hit the footer’s “Report a Bug” link.</p>
+<p>Happy converting! 🎧📄</p>]]></content>
+        <author>
+            <name>Brandon Johnson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[IMDB Search Update]]></title>
         <id>https://zappbrandigan.github.io/blog/2025/07/02/imdb-update</id>
