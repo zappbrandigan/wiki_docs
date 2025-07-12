@@ -3,42 +3,50 @@ title: Cue Sheets
 sidebar_position: 3
 ---
 
-## Guide For Cue Sheet Renaming
+# Cue‑Sheet Renaming Guide
 
-To rename cue sheets quickly, use the template rule (`.* -> CUE_SHEET_TEMPLATE`) under the `Show Templates` button. This rule assumes the 3-2 space delimiters are present. It will attempt to process your files if these are missing, but generally, nothing will happen. The template also expects the episode number indicator to be present.
+Use the built‑in *Cue Sheet* template to conform file names do a specific convention. If the convetion you use is not present, request it!
 
-:::warning
+## Using the template
 
-If the episode title is missing, this template will display `Error` in the status column.
+1. Click **Show Templates** in *Search & Replace*.
+2. Choose **Cue Sheet** (adds the rule `.* → CUE_SHEET_TEMPLATE`).
+3. Review the preview table and adjust as needed.
 
-:::
+The template assumes:
 
-### Main Features
+* The filename contains **three spaces** between Production and Episode and **two spaces** between Episode and *Ep No.*
+* An **episode‑number indicator** (`Ep No. ####`) is present.
 
-Articles at the beginning of the production and/or episode names are automatically moved to the end. For example:
+If these delimiters are missing the rule still runs but will leave the filename unchanged and the status column will show `Error`.
 
-```
-THE SHOW   The Episode  Ep No. 1234 -> SHOW, THE   Episode, The  Ep No. 1234
-```
-Additionally, the episode name and/or production name will be shortened as necessary, with `. . .` appended.
+:::note Missing episode title 
 
-```
-LONG SHOW TITLE   Long Episode. . .  Ep No. 1234
-```
-
-Here are a few additional features that happen in the background:
-- The filename will be 60 characters or fewer.
-- The production title will be converted to uppercase.
-- The episode title will be converted to title case.
-- Extra whitespace will be removed.
-- The filename extension will be lowercase when the files are downloaded.
-- The characters `,.'!` will be removed if they are the last character before `. . .`
-
-:::note
-
-There are a few things to keep in mind when using the cue sheet quick template rule. An important concept is that the status column is not specific to the cue sheet quick template.
+If the episode title is absent, the status will show **Error** and the file will be skipped. 
 
 :::
 
+### Behind‑the‑scenes tweaks
 
+* Leading articles (*A*, *An*, *The*) are moved to the end of Production / Episode.
 
+  ```
+  THE SHOW   The Episode  Ep No. 1234
+  → SHOW, THE   Episode, The  Ep No. 1234
+  ```
+* Names are truncated and suffixed with `. . .` to keep the full filename ≤ 60 characters.
+
+  ```
+  LONG SHOW TITLE   Long Episode Name  Ep No. 1234
+  → LONG SHOW TITLE. . .   Long Episode. . .  Ep No. 1234
+  ```
+* Upper‑case production title, Title‑case episode title.
+* Extra whitespace removed.
+* Trailing `, . ' ! ␣` stripped when followed by `…`.
+* Extension `.pdf` is always lowercase on download.
+
+:::note Status column is global 
+
+The **Status** badge reflects overall validation, not just the cue‑sheet rule. 
+
+:::

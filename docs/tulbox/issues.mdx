@@ -1,0 +1,304 @@
+---
+sidebar_position: 4
+title: Bug Tracker
+slug: issues
+toc_min_heading_level: 2
+toc_max_heading_level: 3
+---
+import BugCard from '@site/src/components/BugCard';
+import UserCard from '@site/src/components/UserCard';
+import users from '@site/src/constants/users';
+
+
+
+# 🐞 TūlBOX Bug Tracker
+
+> **How to use:** Copy the *Bug Entry Template* below, paste it under **Open Issues**, and fill in each field. Keep the most‑recent bugs at the top. Move fixed items to **Closed Issues** with a link to the commit / PR that resolved them.
+
+:::tip
+
+If your not familiar with bug reporting, just copy the bug template below to an email and fill in the details. You can also use the links at the footer of TūlBOX which use a similar template.
+
+:::
+
+---
+
+## Bug Entry Template
+
+```markdown
+### Tool Name
+- **Summary:** Brief description
+- **Date:** YYYY-MM-DD
+- **AppVersion:** x.y.z
+- **Platform:** e.g. Chrome
+- **Area:** <tool / page / component>
+  - **ToolVersion:** x.y.z (if applicable)
+- **Priority:** P2
+- **Reporter:** <name>
+- **Details:**
+  - **Steps to Reproduce**
+    1. …
+    2. …
+  - **Expected Result**: …  
+  - **Actual Result**: …
+  - **Notes / Workaround**: …
+```
+
+---
+
+<!-- 
+#### Summary: 
+here
+
+#### Details
+
+**Steps to Reproduce:**
+
+  1. Go to
+
+**Expected Result:**
+  * here
+
+**Actual Result:**
+  * here 
+
+**Notes:** here
+-->
+
+## Legend
+
+| Field        | Description                                                       |
+| ------------ | ----------------------------------------------------------------- |
+| **Date**     | Report date (`YYYY‑MM‑DD`)                                        |
+| **Version**  | App or tool version affected (e.g. `3.1.0`)                       |
+| **Area**     | Component or page (PDF Manager, CWR Converter → Raw Viewer, etc.) |
+| **Priority** | `P0` (critical) · `P1` (high) · `P2` (normal) · `P3` (low)        |
+| **Status**   | `Open` · `In Progress` · `Patched` · `Blocked` · `Resolved` · `Won't Fix`     |
+| **Summary**  | One‑line description                                              |
+| **Details**  | Steps, expected vs. actual result, stack traces                   |
+| **Reporter** | Name or initials                                                  |
+| **Fix Ref**  | Partial commit hash                                               |
+
+---
+
+## 🔴 Open Issues
+
+<!-- Add new bugs directly below this line -->
+
+<BugCard
+  id="#004"
+  tool="CWR Converter"
+  summary="Large files (>125 MB) freeze browser"
+  date="2025-06-26"
+  appVersion="3.1.0"
+  platform="Unknown / Windows 11"
+  area="CWR Converter — Upload"
+  priority="P2"
+  status="Patched"
+  reporterName={users.beema.name}
+  reporterTitle={users.beema.title}
+  reporterAvatar={users.beema.avatar}
+  fixRef="8bc22ea"
+>
+
+  #### Summary
+  Confidentiality requirements require processing to be handle locally in the browser. Browser memory limitations cause delays and crashes with large files.
+
+  #### Details
+  
+  **Steps to Reproduce:**
+  1. Drag a `125+ MB` `.v21` or `.v22` file into the upload zone.  
+  2. Watch CPU spike and tab become unresponsive.
+
+  **Expected Result:**
+  File parses or a graceful “too big” message appears.
+
+  **Actual Result:**
+  Browser tab freezes; DevTools shows main thread blocked.
+
+  ---
+
+  **Current Status (Patched):**
+  As of `v3.3.0`: CWR Parser handles the processing of CWR files with web workers and virtualizes the raw view and report table components to allow for larger files to be viewed without locking the browser. File size is capped at `150 Mb`.
+</BugCard>
+
+---
+
+
+
+## ✅ Closed Issues
+
+<!-- Move resolved bugs here with their Fix Ref -->
+
+<BugCard
+  id="#006"
+  tool="CWR Converter"
+  summary="AKA Report allows duplicate titles"
+  date="2025-07-03"
+  appVersion="3.2.2"
+  platform="Chrome"
+  area="CWR Converter → AKA Report"
+  priority="P3"
+  status="Resolved"
+  reporterName={users.zappbrandigan.name}
+  reporterTitle={users.zappbrandigan.title}
+  reporterAvatar={users.zappbrandigan.avatar}
+  fixRef='59d1c99'
+>
+
+#### Fix Summary:  
+* Ensures AKA titles in the report are de-duplicated.  
+* Upgrades **cwr-parser** to include NAT-record support, which feeds additional `alternativeTitles`.
+
+**Original Issue:**  
+Duplicate AKA rows caused inflated counts and incorrect exports for works that listed the same local title multiple times.
+
+**Verification:**  
+1. Load a CWR file containing repeated AKA titles.  
+2. Generate the AKA report.  
+3. Confirm each title appears only once and NAT-derived titles are present.
+
+**Notes:**
+No UI changes; fix is back-end only. Regression tests added under `tests/akaReport.spec.ts`.
+</BugCard>
+
+<BugCard
+  id="#005"
+  tool="IMDb Search"
+  summary="AKA copy-paste columns appear in the wrong order"
+  date="2025-07-02"
+  appVersion="3.2.1"
+  platform="(unknown) / Windows 11"
+  area="IMDb Search → Alternative Titles"
+  priority="P3"
+  status="Resolved"
+  reporterName={users.bri.name}
+  reporterTitle={users.bri.title}
+  reporterAvatar={users.bri.avatar}
+  fixRef='f0b136e'
+>
+
+#### Summary: 
+The AKAs are copied to the clipboard in an incorrect order.
+
+#### Details
+
+**Steps to Reproduce:**
+
+  1. Open the IMDb Search tool and look up any production with alternative titles (AKAs).  
+  2. Click on a production with **Alternative Titles**.  
+  3. Scroll to the AKA section.
+  3. Click a row to **copy to clipboard**.  
+  4. Paste the result into Excel, Google Sheets, or a text editor.
+
+**Expected Result:**
+  * Pasted data columns follow the on-screen order.
+
+**Actual Result:**
+  * Columns are pasted as with the order of `language code` and `title type` swapped. 
+
+**Notes:** Quick fix: reorder the parameters in `navigator.clipboard.writeText()`.  
+</BugCard>
+
+<BugCard
+  id="#003"
+  tool="CWR Converter"
+  summary="Batch Report contributions are incomplete"
+  date="2025-06-26"
+  appVersion="3.1.0"
+  platform="Chrome"
+  area="CWR Converter → Batch Report"
+  priority="P0"
+  status="Resolved"
+  reporterName={users.zappbrandigan.name}
+  reporterTitle={users.zappbrandigan.title}
+  reporterAvatar={users.zappbrandigan.avatar}
+  fixRef='a225bcc'
+>
+
+#### Fix Summary:  
+* This fix addresses the writer contribution calculations in the Batch Report of the CWR Converter.
+* It also addresses a bug in the cwr/TableView that would cause the table columns to
+resize as the user scrolled.
+
+**Original Issue:**  
+Writer contributions were being pulled directly from the CWR file and not dynamically calculated based on publisher sequences.
+
+**Notes:**
+Report table columns are set to a fixed width specified in the report template. Writer contributions are calculated according to CWR standards.
+</BugCard>
+
+<BugCard  
+  id="#002"
+  tool="IMDb Search"
+  summary="Filtered TV show search missing results"
+  date="2025-06-16"
+  appVersion="3.0.0"
+  platform="Chrome 114"
+  area="IMDb Search page"
+  priority="P2"
+  status="Resolved"
+  reporterName={users.buckthunder.name}
+  reporterTitle={users.buckthunder.title}
+  reporterAvatar={users.buckthunder.avatar}
+  fixRef="a000489"
+  >
+
+#### Summary: 
+When performing a filter after a search for a TV show on IMDb Search, the expected result does not appear. 
+
+#### Details
+
+**Steps to Reproduce:**
+
+  1. Go to the search section.  
+  2. Enter the name of a known TV show (e.g., Breaking Bad).  
+  3. Set the filter to search under “TV Shows”.  
+  4. Observe that the show does not appear in the results.  
+
+**Expected Result:**
+  * The search should return relevant results for content labeled as "TV series" when filtering under "TV Shows."  
+
+**Actual Result:**
+  * The search returns no results or misses valid TV series because of a mismatch in categorization.  
+
+**Notes:** Update the search filter logic to treat "TV series" as equivalent to "TV show" or include both labels when filtering/searching.  
+</BugCard>
+
+<BugCard  
+  id="#001"
+  tool="PDF Manager"
+  summary="Incorrect casing in cue sheet template"
+  date="2025-06-14"
+  appVersion="3.0.0"
+  platform="Chrome 114"
+  area="Search and Replace Templates"
+  priority="P2"
+  status="Resolved"
+  reporterName={users.buckthunder.name}
+  reporterTitle={users.buckthunder.title}
+  reporterAvatar={users.buckthunder.avatar}
+  fixRef="dd262fb"
+  >
+
+#### Summary:
+ In the PDF File Manager, the search and replace rules for cue sheet templates are not correctly applying the required capitalization formatting.
+
+#### Details:
+
+**Steps to Reproduce**
+  1. Open the PDF File Manager.  
+  2. Load or create a cue sheet template that uses placeholders for Production Title and Episode Title.  
+  3. Perform the search and replace operation with valid data.  
+  4. Observe the formatting of the replaced text.  
+
+**Expected Result**:  
+  * The Production Title should be automatically converted to ALL CAPS.  
+  * The Episode Title should be automatically converted to Title Case (e.g., "The First Episode"). 
+
+**Actual Result**: 
+  * The Production Title casing is the same as the original.  
+  * The Episode Title casing is the same as the original.  
+
+**Notes**: This issue can affect the formatting consistency of cue sheets, which may be critical for professional delivery standards.
+</BugCard>

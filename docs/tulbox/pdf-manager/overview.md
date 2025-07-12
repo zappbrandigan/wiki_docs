@@ -4,29 +4,41 @@ slug: overview
 sidebar_position: 1
 ---
 
-The PDF Manager helps you rename your PDF files quickly and easily.
+# PDF Manager – Quick Start
 
-**How to use:**
-1. **Upload Files:** Drag and drop your PDF files into the upload area, or click to select files from your computer. Only PDF files are accepted at this time. If you would like to add support for additional file types, let me know.
-    - Maximum file count for upload is set to 100 PDFs; this is not a system limitation, just a practical decision as changes tend to have unintentional effects when dealing in large volume. If you need this limit to be increased, let me know via the links at the bottom of the page on TūlBOX.
-2. **View & Edit:** See your files in a table. You can edit file names directly by clicking the edit icon next to each name.
-3. **Batch Rename:** Use the "Search & Replace" section to create rules for renaming files in bulk. You can use regular expressions for advanced patterns. Click "Apply Rules" to update all file names at once.
-    - Rules can be chained together and applied sequentially.
-4. **Check Status:** The table highlights duplicates and invalid names. Only files marked as `Valid`, `Modified`, or `Dotified` can be downloaded.
+The **PDF Manager** lets you rename large batches of PDF files in seconds.
 
-:::warning
+## Workflow
 
-This tool no longer enforces cue sheet file name conventions. This is to allow others to use the tool for more general purposes.
-The cue sheet file naming convention can still be accessed by using one of the quick templates.
+1. **Upload files**
+   Drag‑and‑drop or click **Browse** to add PDFs.
+   *Soft limit: 100 files per batch.* Need more? Reach out via the links in TūlBOX’s footer.
+
+2. **Review & edit**
+   Files appear in a table. Click the ✏️ icon to rename a single file in place.
+
+3. **Batch‑rename**
+   Open **Search & Replace** to stack one or more rules (supports full RegExp syntax).
+   Click **Apply Rules** to preview every change.
+
+4. **Check status**
+   The status pill for each row tells you whether the filename is **Valid**, **Modified**, **Dotified**, **Invalid**, or **Duplicate** (see [Status Indicators](#status-indicators)).
+
+:::warning 
+
+Cue‑sheet rules are now optional. The tool no longer enforces cue‑sheet conventions by default.
+Select a quick template if you still need that format.
 
 :::
 
-5. **Download:** Click "Download All" to save all valid, renamed files to your computer.
-6. **Clear All:** Remove all files from the manager with one click.
+5. **Download**
+   When all rows are green, hit **Download All** to grab a zip of the renamed files.
+
+6. **Clear**
+   Click **Clear All** to reset the table.
 
 :::tip
 
-- Use quick templates in the Search & Replace section for common renaming tasks.
-- Hover over icons for tooltips and more info.
+* Use the **quick templates** inside *Search & Replace* for common patterns.
 
 :::

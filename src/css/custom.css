@@ -20,3 +20,42 @@
   --ifm-color-primary-lightest: #dbeafe; /* blue-100 */
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
 }
+
+/* src/css/custom.css */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important; /* prevent line-wrap */
+  border: 0 !important;
+}
+
+.bug-caret {
+  /* make a CSS triangle */
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;      /* base */
+  border-left-color: currentColor;    
+  margin-right: 6px;
+  transition: transform 0.2s ease;
+}
+
+details[open] .bug-caret {
+  transform: rotate(90deg);          
+}
+
+.bug-summary::-webkit-details-marker,
+.bug-summary::marker {
+  display: none;
+}
+
+.floater {
+  position: static !important;
+  top: 0px !important;
+  right: 0px !important;
+}

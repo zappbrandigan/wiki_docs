@@ -4,28 +4,47 @@ title: Introduction
 slug: intro
 ---
 
-# Welcome!
+# 👋 Welcome to **TūlBOX v3**
 
-This is the user guide and information hub for TūlBOX version 3.
+Your browser-based toolkit for turbo-charging Film & TV music-admin workflows.
 
-## What is...?
+---
 
-TūlBOX version 3 is a modern web-based toolkit to host various automation tools -- built with React, TypeScript, Vite, and Tailwind CSS.
+## What **is** TūlBOX?
 
-## Current Features
+TūlBOX v3 bundles purpose-built automation tools inside a modern React + TypeScript app, powered by Vite and styled with Tailwind CSS. There’s nothing to install—just open the site and start working.
 
-### PDF Manager
-- **Upload PDF files** via drag-and-drop or file picker
-- **Batch rename** files using flexible search & replace rules (supports regex)
-- **Detect and highlight** duplicate or invalid file names
-- **Download** all valid, renamed PDF files in one click
+---
 
-### IMDB Search
-- **Search** for movies, TV shows, and games
-- **View detailed production info**: cast, crew, plot, rating, production companies
-- **See international (AKA) titles** with transliteration and language detection
+## 🧰 Current Toolkit
 
+### 📑 PDF Manager
+- **Drag-and-drop upload** for single files *or* whole folders  
+- **Smart batch-rename** with search-&-replace rules (regex supported)  
+- **Instant duplicate / invalid-name detection** with inline highlights  
+- **One-click export** of all cleaned, renamed PDFs  
 
-### More To Come!
+### 🎬 IMDb Search
+- **Aggregated data** lookup for films, series, episodes, and games  
+- **Rich detail panel**: cast, crew, synopsis, ratings, production companies  
+- **International (AKA) titles** with automatic transliteration & language tags  
+- **Copy-ready IMDb ID** (stripped to the canonical 9-character code)  
 
-More tools are coming in the future. Check back soon! Feel free to send me any suggestions as well.
+### 🎼 CWR Converter
+**Raw Viewer**  
+- Toggleable **field-info tooltips**  
+- **Full-screen mode** for maximum visibility  
+- **Global search** across every record  
+
+**Report Generator**  
+- Growing library of **templated reports**  
+- **CSV export** for spreadsheets or BI tools  
+
+---
+
+## 🔮 On the Roadmap
+
+New utilities are already in development, such as automatic cue sheet stamping—check back soon!  
+Have an idea or feature request? Drop a line to **brandon@tulbox.app** or use the in-app *Feedback* link.
+
+Happy automating!
