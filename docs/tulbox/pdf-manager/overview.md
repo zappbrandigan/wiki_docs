@@ -22,7 +22,7 @@ The **PDF Manager** lets you rename large batches of PDF files in seconds.
    Click **Apply Rules** to preview every change.
 
 4. **Check status**
-   The status pill for each row tells you whether the filename is **Valid**, **Modified**, **Dotified**, **Invalid**, or **Duplicate** (see [Status Indicators](#status-indicators)).
+   The status pill for each row tells you whether the filename is **Valid**, **Modified**, **Dotified**, **Invalid**, or **Duplicate** (see [Status Indicators](status-indicator.md)).
 
 :::warning 
 
