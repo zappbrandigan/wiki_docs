@@ -14,9 +14,9 @@ Turn raw **Common Works Registration** (CWR v2.1 / v2.2) files into human‑r
 * Drag‑and‑drop or **Browse** for a `.v21` or `.v22` file (up to 100 MB).
 * The parser validates the header and record structure before rendering.
 
-> **Heads‑up:** Very large files parse synchronously—keep the tab in focus to avoid throttling.
+> **Heads‑up:** Large files parse synchronously—keep the tab in focus to avoid throttling.
 
-:::warning >150Mb
+:::warning
 
 All processing happens entirely in your browser, so your data never leaves your machine. Because everything runs locally, the maximum file size the tool can handle depends on your computer’s memory and processing power. A typical work-issued PC can handle ~100Mb. If you have files larger than this, reach out, or download the CLI version.
 
