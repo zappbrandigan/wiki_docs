@@ -11,14 +11,14 @@ Turn raw **Common Works Registration** (CWR v2.1 / v2.2) files into human‑r
 
 ## 1 · Upload a CWR file
 
-* Drag‑and‑drop or **Browse** for a `.v21` or `.v22` file (up to \~150 MB).
+* Drag‑and‑drop or **Browse** for a `.v21` or `.v22` file (up to 100 MB).
 * The parser validates the header and record structure before rendering.
 
 > **Heads‑up:** Very large files parse synchronously—keep the tab in focus to avoid throttling.
 
 :::warning >150Mb
 
-All processing happens entirely in your browser, so your data never leaves your machine. Because everything runs locally, the maximum file size the tool can handle depends on your computer’s memory and processing power. A typical work-issued PC can handle ~120-150Mb. If you have files larger than this, reach out, or download the CLI version.
+All processing happens entirely in your browser, so your data never leaves your machine. Because everything runs locally, the maximum file size the tool can handle depends on your computer’s memory and processing power. A typical work-issued PC can handle ~100Mb. If you have files larger than this, reach out, or download the CLI version.
 
 :::
 
@@ -67,7 +67,7 @@ Most reports simply use the data as provided in the CWR file. Any reports that h
     { key: 'ogRecType', label: 'OG Rec Type', type: 'string', width: 100 },
     { key: 'msgLevel', label: 'Msg Level', type: 'string', width: 75 },
     { key: 'validationLevel', label: 'Valication Level', type: 'string', width: 100, },
-    { key: 'msgText', label: 'Message', type: 'string', width: 900 },
+    { key: 'msgText', label: 'Message', type: 'string', width: 600 },
   ],
 },
 ```
