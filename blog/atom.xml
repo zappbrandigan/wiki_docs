@@ -2,11 +2,63 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zappbrandigan.github.io/blog</id>
     <title>Wiki Blog</title>
-    <updated>2025-07-14T00:00:00.000Z</updated>
+    <updated>2025-07-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zappbrandigan.github.io/blog"/>
     <subtitle>Wiki Blog</subtitle>
     <icon>https://zappbrandigan.github.io/img/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[New Renaming Templates]]></title>
+        <id>https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager</id>
+        <link href="https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager"/>
+        <updated>2025-07-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I’ve added a fresh set of regex templates to the Search & Replace tool — making it even easier to format your file names consistently, cleanly, and fast.]]></summary>
+        <content type="html"><![CDATA[<p>I’ve added a fresh set of <strong>regex templates</strong> to the <em>Search &amp; Replace</em> tool — making it even easier to format your file names consistently, cleanly, and fast.</p>
+<p>These new templates are designed to pair seamlessly with the existing <strong>Cue Sheet</strong> presets. Whether you’re converting date formats, reordering titles, or applying final polish to naming conventions, these tools can now handle it in a click.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-whats-new">✨ What’s New<a href="https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager#-whats-new" class="hash-link" aria-label="Direct link to ✨ What’s New" title="Direct link to ✨ What’s New">​</a></h2>
+<p>Here are the new built-in templates:</p>
+<ul>
+<li>
+<p><strong>Cue Sheet T1</strong><br>
+<!-- -->The original <code>CUE_SHEET_TEMPLATE</code> has been renamed.</p>
+</li>
+<li>
+<p><strong>Cue Sheet T2</strong><br>
+<!-- -->Same as the original, but designed for file names that do not have an episode title.</p>
+</li>
+<li>
+<p><strong>Date Conversion 1</strong><br>
+<code>011425</code> → <code>14012025</code> (6-digit → U.S. format)</p>
+</li>
+<li>
+<p><strong>Date Conversion 2</strong><br>
+<code>01142025</code> → <code>14012025</code> (8-digit → U.S. format)</p>
+</li>
+<li>
+<p><strong>Add “Ep No.”</strong><br>
+<code>011425</code> → <code>Ep No. 011425</code></p>
+</li>
+<li>
+<p><strong>Reorder Tokens</strong></p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Prod Title - 104 - Ep Title → Prod Title   Ep Title  Ep No. 104</span><br></span></code></pre></div></div>
+</li>
+<li>
+<p><strong>Zero Pad Episode Suffix</strong><br>
+<code>Ep No. 113</code> → <code>Ep No. 1013</code></p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-tips-for-use">💡 Tips for Use<a href="https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager#-tips-for-use" class="hash-link" aria-label="Direct link to 💡 Tips for Use" title="Direct link to 💡 Tips for Use">​</a></h2>
+<ul>
+<li>Combine multiple templates in a row to streamline complex renaming tasks.</li>
+<li>Use the general templates <em>before</em> applying cue sheet rules for best results.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-read-the-docs">📄 Read the Docs<a href="https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager#-read-the-docs" class="hash-link" aria-label="Direct link to 📄 Read the Docs" title="Direct link to 📄 Read the Docs">​</a></h2>
+<p>You’ll find a new guide in the docs titled <strong>Regex Templates</strong>, which walks through each of these rules with examples and usage notes.</p>
+<p><a href="https://zappbrandigan.github.io/tulbox/pdf-manager/templates">→ View the Regex Templates Guide</a></p>]]></content>
+        <author>
+            <name>Brandon Johnson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CWR Converter (beta)]]></title>
         <id>https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update</id>
