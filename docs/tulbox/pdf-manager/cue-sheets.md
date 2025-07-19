@@ -9,22 +9,25 @@ Use the built‑in *Cue Sheet* template to conform file names do a specific conv
 
 ## Using the template
 
+For file names that include the episode title:
+
 1. Click **Show Templates** in *Search & Replace*.
-2. Choose **Cue Sheet** (adds the rule `.* → CUE_SHEET_TEMPLATE`).
+2. Choose **Cue Sheet T1** (adds the rule `.* → CUE_SHEET`).
 3. Review the preview table and adjust as needed.
 
-The template assumes:
+For file names **without** the episode title:
 
-* The filename contains **three spaces** between Production and Episode and **two spaces** between Episode and *Ep No.*
+1. Click **Show Templates** in *Search & Replace*.
+2. Choose **Cue Sheet T2** (adds the rule `.* → CUE_SHEET_NO_EP`).
+3. Review the preview table and adjust as needed.
+
+These templates assumes:
+
+* T1: The filename contains **three spaces** between Production and Episode and **two spaces** between Episode and *Ep No.*
+* T2: The filename contains **three spaces** between Production and *Ep No.*.
 * An **episode‑number indicator** (`Ep No. ####`) is present.
 
 If these delimiters are missing the rule still runs but will leave the filename unchanged and the status column will show `Error`.
-
-:::note Missing episode title 
-
-If the episode title is absent, the status will show **Error** and the file will be skipped. 
-
-:::
 
 ### Behind‑the‑scenes tweaks
 
