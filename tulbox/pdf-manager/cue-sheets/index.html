@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.8.1">
 <title data-rh="true">Cue Sheets | Wiki</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://zappbrandigan.github.io/tulbox/pdf-manager/cue-sheets"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Cue Sheets | Wiki"><meta data-rh="true" name="description" content="Use the built‑in Cue Sheet template to conform file names do a specific convention. If the convetion you use is not present, request it!"><meta data-rh="true" property="og:description" content="Use the built‑in Cue Sheet template to conform file names do a specific convention. If the convetion you use is not present, request it!"><link data-rh="true" rel="icon" href="/img/favicon.svg"><link data-rh="true" rel="canonical" href="https://zappbrandigan.github.io/tulbox/pdf-manager/cue-sheets"><link data-rh="true" rel="alternate" href="https://zappbrandigan.github.io/tulbox/pdf-manager/cue-sheets" hreflang="en"><link data-rh="true" rel="alternate" href="https://zappbrandigan.github.io/tulbox/pdf-manager/cue-sheets" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Cue Sheets","item":"https://zappbrandigan.github.io/tulbox/pdf-manager/cue-sheets"}]}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Wiki RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Wiki Atom Feed"><link rel="stylesheet" href="/assets/css/styles.b4eb8b59.css">
-<script src="/assets/js/runtime~main.b3f58af4.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.9659c62f.js" defer="defer"></script>
 <script src="/assets/js/main.5cdfa616.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -27,13 +27,13 @@
 <li>Choose <strong>Cue Sheet T2</strong> (adds the rule <code>.* → CUE_SHEET_NO_EP</code>).</li>
 <li>Review the preview table and adjust as needed.</li>
 </ol>
-<p>These templates assume:</p>
+<p>These templates expect filenames to follow a strict delimiter format:</p>
 <ul>
-<li>T1: The filename contains <strong>three spaces</strong> between Production and Episode and <strong>two spaces</strong> between Episode and <em>Ep No.</em></li>
-<li>T2: The filename contains <strong>three spaces</strong> between Production and <em>Ep No.</em></li>
-<li>An <strong>episode‑number indicator</strong> (<code>Ep No. ####</code>) is present.</li>
+<li><strong>T1:</strong> Three parts separated by <strong>three spaces</strong> (between production and episode title) and <strong>two spaces</strong> (between episode title and episode number).</li>
+<li><strong>T2:</strong> Two parts separated by <strong>three spaces</strong> (between production title and episode number).</li>
 </ul>
-<p>If these delimiters are missing, the rule still runs but will leave the filename unchanged and the status column will show <code>Error</code>.</p>
+<p>If these expected delimiters are missing or incorrect, the filename will be left unchanged and the status will be marked as <code>Error</code>.</p>
+<hr>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="behindthescenes-tweaks">Behind‑the‑scenes tweaks<a href="#behindthescenes-tweaks" class="hash-link" aria-label="Direct link to Behind‑the‑scenes tweaks" title="Direct link to Behind‑the‑scenes tweaks">​</a></h3>
 <p><em>This applies to both T1 and T2</em></p>
 <ul>
