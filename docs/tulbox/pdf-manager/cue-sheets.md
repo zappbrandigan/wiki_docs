@@ -21,13 +21,14 @@ For file names **without** the episode title:
 2. Choose **Cue Sheet T2** (adds the rule `.* → CUE_SHEET_NO_EP`).
 3. Review the preview table and adjust as needed.
 
-These templates assume:
+These templates expect filenames to follow a strict delimiter format:
 
-* T1: The filename contains **three spaces** between Production and Episode and **two spaces** between Episode and *Ep No.*
-* T2: The filename contains **three spaces** between Production and *Ep No.*
-* An **episode‑number indicator** (`Ep No. ####`) is present.
+* **T1:** Three parts separated by **three spaces** (between production and episode title) and **two spaces** (between episode title and episode number).
+* **T2:** Two parts separated by **three spaces** (between production title and episode number).
 
-If these delimiters are missing, the rule still runs but will leave the filename unchanged and the status column will show `Error`.
+If these expected delimiters are missing or incorrect, the filename will be left unchanged and the status will be marked as `Error`.
+
+---
 
 ### Behind‑the‑scenes tweaks
 
