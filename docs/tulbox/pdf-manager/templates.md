@@ -21,7 +21,7 @@ If the result is incorrect, try a different template or manually adjust the rule
 
 ### 📆 Date Conversion 1
 
-**Description:** Converts abbreviated European dates to U.S. format.  
+**Description:** Swaps the day/month parts of a date with an abbreviated year and appends `20` to the year.  
 **Example:** `011425` → `14012025`
 
 * **Search:** `(\d{2})(\d{2})(\d{2})`
@@ -33,7 +33,7 @@ Use when dealing with 6-digit dates (ddmmyy).
 
 ### 📆 Date Conversion 2
 
-**Description:** Converts full European dates to U.S. format.  
+**Description:** Swaps the day/month parts of a date with full year.  
 **Example:** `01142025` → `14012025`
 
 * **Search:** `(\d{2})(\d{2})(\d{4})`
