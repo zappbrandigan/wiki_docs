@@ -1,7 +1,7 @@
 const users = {
   zappbrandigan: {
     name: 'Brandon J.',
-    title: 'FTV Coordinator',
+    title: 'Coordinator',
     avatar: 'https://avatars.githubusercontent.com/u/482919?v=4',
   },
   buckthunder: {
@@ -11,12 +11,12 @@ const users = {
   },
   bri: {
     name: 'Bri P.',
-    title: 'FTV Contractor',
+    title: 'Client Services',
     avatar: 'https://avatars.githubusercontent.com/u/1234567?v=4',
   },
   beema: {
     name: 'Beema R.',
-    title: 'Copyright Intern',
+    title: 'Intern',
     avatar: 'https://avatars.githubusercontent.com/u/1234567?v=4',
   },
 } as const;

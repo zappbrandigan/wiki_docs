@@ -1,21 +1,20 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-
 const config: Config = {
-  title: 'Wiki',
-  tagline: 'Dinosaurs are cool',
+  title: 'Docs',
+  tagline: 'Tool Guides',
   favicon: 'img/favicon.svg',
 
   future: {
-    v4: true, 
+    v4: true,
   },
 
   url: 'https://zappbrandigan.github.io/',
   baseUrl: '/',
 
-  organizationName: 'zappbrandigan', 
+  organizationName: 'zappbrandigan',
   projectName: 'wiki_docs',
 
   onBrokenLinks: 'throw',
@@ -31,8 +30,6 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
-          path: './docs',
           routeBasePath: '/',
         },
         blog: {
@@ -54,25 +51,13 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: 'TūlBOX Wiki',
+      title: 'TūlBOX Docs',
       logo: {
-        alt: 'TūlBOX Wiki',
+        alt: 'TūlBOX Docs',
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'wiki',
-          position: 'left',
-          label: 'Music Pub',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'tulbox',
-          position: 'left',
-          label: 'TūlBOX',
-        },
-        {to: '/blog', label: 'Updates', position: 'left'},
+        { to: '/blog', label: 'Updates', position: 'left' },
         {
           href: 'https://tulbox.app',
           label: 'TūlBOX',
@@ -87,12 +72,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Wiki',
-              to: '/',
-            },
-            {
               label: 'Documentation',
-              to: 'tulbox/intro',
+              to: '/intro',
             },
           ],
         },
@@ -119,7 +100,7 @@ const config: Config = {
             {
               label: 'Updates',
               to: '/blog',
-            }
+            },
           ],
         },
       ],

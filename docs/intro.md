@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
 title: Introduction
-slug: intro
+slug: / 
 ---
 
-# 👋 Welcome to **TūlBOX v3**
+# Welcome to **TūlBOX v3**
 
 Your browser-based toolkit for turbo-charging Film & TV music-admin workflows.
 
@@ -16,21 +16,21 @@ TūlBOX v3 bundles purpose-built automation tools inside a modern React + TypeSc
 
 ---
 
-## 🧰 Current Toolkit
+## Current Toolkit
 
-### 📑 PDF Manager
+### PDF Manager
 - **Drag-and-drop upload** for single files *or* whole folders  
 - **Smart batch-rename** with search-&-replace rules (regex supported)  
 - **Instant duplicate / invalid-name detection** with inline highlights  
 - **One-click export** of all cleaned, renamed PDFs  
 
-### 🎬 IMDb Search
+### Production Search
 - **Aggregated data** lookup for films, series, episodes, and games  
 - **Rich detail panel**: cast, crew, synopsis, ratings, production companies  
 - **International (AKA) titles** with automatic transliteration & language tags  
 - **Copy-ready IMDb ID** (stripped to the canonical 9-character code)  
 
-### 🎼 CWR Converter
+### CWR Converter
 **Raw Viewer**  
 - Toggleable **field-info tooltips**  
 - **Full-screen mode** for maximum visibility  
@@ -42,7 +42,7 @@ TūlBOX v3 bundles purpose-built automation tools inside a modern React + TypeSc
 
 ---
 
-## 🔮 On the Roadmap
+## On the Roadmap
 
 New utilities are already in development, such as automatic cue sheet stamping—check back soon!  
 Have an idea or feature request? Drop a line to **brandon@tulbox.app** or use the in-app *Feedback* link.

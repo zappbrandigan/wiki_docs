@@ -1,11 +1,11 @@
 ---
-title: IMDb Search Overview
+title: Production Search Overview
 slug: overview
 ---
 
-# IMDb Search – Quick Start
+# Production Search – Quick Start
 
-The **IMDb Search** tool lets you look up films, series, episodes, and video games and explore rich metadata—without leaving TūlBOX.
+The **Production Search** tool lets you look up films, series, episodes, and video games and explore rich metadata—without leaving TūlBOX.
 
 ## Workflow
 

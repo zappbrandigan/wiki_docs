@@ -131,6 +131,35 @@ here
 <!-- Move resolved bugs here with their Fix Ref -->
 
 <BugCard
+  id="#007"
+  tool="CWR Converter"
+  summary="Reports imcomplete on certain files"
+  date="2025-08-06"
+  appVersion="3.4.3"
+  platform="Chrome"
+  area="CWR Converter"
+  priority="P2"
+  status="Resolved"
+  reporterName={users.zappbrandigan.name}
+  reporterTitle={users.zappbrandigan.title}
+  reporterAvatar={users.zappbrandigan.avatar}
+  fixRef='8a8ca8d'
+>
+
+#### Fix Summary:  
+* Ensures reports include the complete CWR file.  
+
+**Original Issue:**  
+Reports in the CWR Converter tool showed incomplete data for specific CWR files.
+
+**Verification:**  
+1. Load problem CWR file.  
+2. Generate any report.  
+3. Confirm that not all data is present.
+
+</BugCard>
+
+<BugCard
   id="#006"
   tool="CWR Converter"
   summary="AKA Report allows duplicate titles"
@@ -164,12 +193,12 @@ No UI changes; fix is back-end only. Regression tests added under `tests/akaRepo
 
 <BugCard
   id="#005"
-  tool="IMDb Search"
+  tool="Production Search"
   summary="AKA copy-paste columns appear in the wrong order"
   date="2025-07-02"
   appVersion="3.2.1"
   platform="(unknown) / Windows 11"
-  area="IMDb Search → Alternative Titles"
+  area="Production Search → Alternative Titles"
   priority="P2"
   status="Resolved"
   reporterName={users.bri.name}
@@ -230,12 +259,12 @@ Report table columns are set to a fixed width specified in the report template. 
 
 <BugCard  
   id="#002"
-  tool="IMDb Search"
+  tool="Production Search"
   summary="Filtered TV show search missing results"
   date="2025-06-16"
   appVersion="3.0.0"
   platform="Chrome 114"
-  area="IMDb Search page"
+  area="Production Search page"
   priority="P2"
   status="Resolved"
   reporterName={users.buckthunder.name}
