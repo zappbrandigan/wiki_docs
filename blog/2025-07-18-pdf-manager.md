@@ -47,4 +47,4 @@ Here are the new built-in templates:
 
 You’ll find a new guide in the docs titled **Regex Templates**, which walks through each of these rules with examples and usage notes.
 
-[→ View the Regex Templates Guide](docs/pdf-manager/templates)
+[→ View the Regex Templates Guide](/pdf-manager/templates)

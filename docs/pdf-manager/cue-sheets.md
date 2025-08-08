@@ -43,7 +43,7 @@ If these expected delimiters are missing or incorrect, the filename will be left
 
 :::note
 
-Language detection is not used here. The current supported aricles can be found [here](/tulbox/pdf-manager/articles)
+Language detection is not used here. The current supported aricles can be found [here](/pdf-manager/articles)
 
 :::
 
