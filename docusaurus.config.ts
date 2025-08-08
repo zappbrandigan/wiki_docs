@@ -41,6 +41,7 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          routeBasePath: '/blog',
         },
         theme: {
           customCss: './src/css/custom.css',

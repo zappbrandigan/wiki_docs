@@ -11,7 +11,7 @@ These new templates are designed to pair seamlessly with the existing **Cue Shee
 
 <!-- truncate -->
 
-## ✨ What’s New
+## What’s New
 
 Here are the new built-in templates:
 
@@ -38,13 +38,13 @@ Here are the new built-in templates:
 * **Zero Pad Episode Suffix**  
   `Ep No. 113` → `Ep No. 1013`
 
-## 💡 Tips for Use
+## Tips for Use
 
 * Combine multiple templates in a row to streamline complex renaming tasks.
 * Use the general templates *before* applying cue sheet rules for best results.
 
-## 📄 Read the Docs
+## Read the Docs
 
 You’ll find a new guide in the docs titled **Regex Templates**, which walks through each of these rules with examples and usage notes.
 
-[→ View the Regex Templates Guide](/tulbox/pdf-manager/templates)
+[→ View the Regex Templates Guide](/docs/pdf-manager/templates)

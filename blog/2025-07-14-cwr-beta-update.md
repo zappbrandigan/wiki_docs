@@ -11,18 +11,18 @@ This post dives into the latest **performance** and **usability** upgrades.
 <!-- truncate -->
 ---
 
-## ⚡️ Performance & Scale
+## Performance & Scale
 
 | New Tech | What it solves |
 | -------- | -------------- |
 | **Virtualized Raw Viewer & Report Tables** | Rows render only when visible, so even 100 k-line CWRs stay buttery smooth. |
 | **Web Workers** | Parsing now runs off the main thread, keeping the UI responsive—even with 100 MB+ files. |
 
-*Result: can now handle large transmissions `~125-150 Mb` depending on your systems capabilites.*
+*Result: can now handle large transmissions, but capped at `~100 Mb` to accomodate lower-end systems capabilites.*
 
 ---
 
-## 🔍 Smarter, Highlighted Search
+## Smarter, Highlighted Search
 
 Find that elusive record in seconds:
 
@@ -32,19 +32,19 @@ Find that elusive record in seconds:
 
 ---
 
-## 🖥️ Pseudo Full-Screen Raw Viewer
+## Pseudo Full-Screen Raw Viewer
 
 Need extra space? Hit **`⌘/Ctrl + e`** or click the new “expand” icon to pop the Raw Viewer into a focused, edge-to-edge mode. Perfect for side-by-side edits.
 
 ---
 
-## 🛈 Field Tooltips → Now Toggleable
+## Field Tooltips → Now Toggleable
 
 Mouse-over labels still reveal field names & definitions, but if you already know your **SPU** from your **SWR**, press **`⌘/Ctrl + k`** to hide them and reclaim that bit of horizontal room.
 
 ---
 
-## ⌨️ Shortcut Recap
+## Shortcut Recap
 
 | Action | macOS / Windows |
 | ------ | --------------- |
@@ -57,7 +57,7 @@ Mouse-over labels still reveal field names & definitions, but if you already kno
 
 ---
 
-## 🛠 Miscellaneous Fixes
+## Miscellaneous Fixes
 
 * Batch report now includes **dynamic** writer contribution calculations.
 * AKA report now lists **unique** titles only.  
@@ -68,10 +68,10 @@ Mouse-over labels still reveal field names & definitions, but if you already kno
 
 ---
 
-## 👉 Try it & tell me what breaks
+## Try it & tell me what breaks
 
 The beta is live at **TūlBOX → CWR Converter**. As always, this release is best served with fresh feedback:
 
 *Found a glitch?* Copy the **Bug Entry Template** from the docs and add it to the tracker—or hit the footer’s “Report a Bug” link.
 
-Happy converting! 🎧📄
+Happy converting! 
