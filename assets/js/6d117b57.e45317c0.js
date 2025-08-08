@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[2240],{7525:s=>{s.exports=JSON.parse('{"tag":{"label":"definitions","permalink":"/tags/definitions","allTagsPath":"/tags","count":1,"items":[{"id":"music-publishing/glossary","title":"Glossary of Terms","description":"A","permalink":"/music-publishing/glossary"}],"unlisted":false}}')}}]);

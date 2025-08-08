@@ -1,12 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zappbrandigan.github.io/blog</id>
-    <title>Wiki Blog</title>
-    <updated>2025-07-18T00:00:00.000Z</updated>
+    <title>Docs Blog</title>
+    <updated>2025-08-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zappbrandigan.github.io/blog"/>
-    <subtitle>Wiki Blog</subtitle>
+    <subtitle>Docs Blog</subtitle>
     <icon>https://zappbrandigan.github.io/img/favicon.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[New Tool – Cue Sheet Converter]]></title>
+        <id>https://zappbrandigan.github.io/blog/cue-sheet-converter</id>
+        <link href="https://zappbrandigan.github.io/blog/cue-sheet-converter"/>
+        <updated>2025-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Excited to announce the release of the Cue Sheet Converter in TūlBOX — a fast, in-browser tool for extracting and formatting music cue sheet data.]]></summary>
+        <content type="html"><![CDATA[<p>Excited to announce the release of the <strong>Cue Sheet Converter</strong> in TūlBOX — a fast, in-browser tool for extracting and formatting music cue sheet data.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-it-does">What it does<a href="https://zappbrandigan.github.io/blog/cue-sheet-converter#what-it-does" class="hash-link" aria-label="Direct link to What it does" title="Direct link to What it does">​</a></h2>
+<p>The Cue Sheet Converter takes raw cue sheet files (<strong>PDF</strong>) and transforms them into clean, structured data for easy review and downstream use.</p>
+<p>This reduces manual scanning pdf files line-by-line — the converter parses the file automatically and outputs a neatly organized table view.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-features">Key features<a href="https://zappbrandigan.github.io/blog/cue-sheet-converter#key-features" class="hash-link" aria-label="Direct link to Key features" title="Direct link to Key features">​</a></h2>
+<ul>
+<li><strong>Drag-and-drop upload</strong> for quick file selection</li>
+<li><strong>Automatic parsing</strong> of Soundmouse-formatted cue sheets</li>
+<li><strong>Table view</strong> for a quick preview of the extracted data</li>
+<li><strong>Column metadata mapping</strong> for consistent exports</li>
+<li><strong>Warnings</strong> to notify you of missing or unexpected data</li>
+<li><strong>Copy or download</strong> results in CSV format for reporting or archiving</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-it-works">How it works<a href="https://zappbrandigan.github.io/blog/cue-sheet-converter#how-it-works" class="hash-link" aria-label="Direct link to How it works" title="Direct link to How it works">​</a></h2>
+<ol>
+<li>Upload your cue sheet file</li>
+<li>The converter scans for titles, writers, publishers, durations, and other key fields</li>
+<li>Data is displayed in an table inside your browser</li>
+<li>Export as needed — no server processing, so your files stay local</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-it-matters">Why it matters<a href="https://zappbrandigan.github.io/blog/cue-sheet-converter#why-it-matters" class="hash-link" aria-label="Direct link to Why it matters" title="Direct link to Why it matters">​</a></h2>
+<p>This tool removes the tedious manual entry step and reduces the risk of typos or mismatched metadata. It’s especially useful for episode linking with high volumes of cue sheets.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What’s next<a href="https://zappbrandigan.github.io/blog/cue-sheet-converter#whats-next" class="hash-link" aria-label="Direct link to What’s next" title="Direct link to What’s next">​</a></h2>
+<ul>
+<li><strong>More formats:</strong> RapidCue and CueSpark files</li>
+</ul>
+<hr>
+<p>📍 <strong>Try it now</strong> — open the Cue Sheet Converter from the TūlBOX tools menu.<br>
+<!-- -->I’d love to hear your feedback — use the <strong>Feature Request</strong> link in the footer to share ideas for improvements.</p>]]></content>
+        <author>
+            <name>Brandon Johnson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New Renaming Templates]]></title>
         <id>https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager</id>
@@ -15,7 +54,7 @@
         <summary type="html"><![CDATA[I’ve added a fresh set of regex templates to the Search & Replace tool — making it even easier to format your file names consistently, cleanly, and fast.]]></summary>
         <content type="html"><![CDATA[<p>I’ve added a fresh set of <strong>regex templates</strong> to the <em>Search &amp; Replace</em> tool — making it even easier to format your file names consistently, cleanly, and fast.</p>
 <p>These new templates are designed to pair seamlessly with the existing <strong>Cue Sheet</strong> presets. Whether you’re converting date formats, reordering titles, or applying final polish to naming conventions, these tools can now handle it in a click.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-whats-new">✨ What’s New<a href="https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager#-whats-new" class="hash-link" aria-label="Direct link to ✨ What’s New" title="Direct link to ✨ What’s New">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What’s New<a href="https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager#whats-new" class="hash-link" aria-label="Direct link to What’s New" title="Direct link to What’s New">​</a></h2>
 <p>Here are the new built-in templates:</p>
 <ul>
 <li>
@@ -47,14 +86,14 @@
 <code>Ep No. 113</code> → <code>Ep No. 1013</code></p>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-tips-for-use">💡 Tips for Use<a href="https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager#-tips-for-use" class="hash-link" aria-label="Direct link to 💡 Tips for Use" title="Direct link to 💡 Tips for Use">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tips-for-use">Tips for Use<a href="https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager#tips-for-use" class="hash-link" aria-label="Direct link to Tips for Use" title="Direct link to Tips for Use">​</a></h2>
 <ul>
 <li>Combine multiple templates in a row to streamline complex renaming tasks.</li>
 <li>Use the general templates <em>before</em> applying cue sheet rules for best results.</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-read-the-docs">📄 Read the Docs<a href="https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager#-read-the-docs" class="hash-link" aria-label="Direct link to 📄 Read the Docs" title="Direct link to 📄 Read the Docs">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="read-the-docs">Read the Docs<a href="https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager#read-the-docs" class="hash-link" aria-label="Direct link to Read the Docs" title="Direct link to Read the Docs">​</a></h2>
 <p>You’ll find a new guide in the docs titled <strong>Regex Templates</strong>, which walks through each of these rules with examples and usage notes.</p>
-<p><a href="https://zappbrandigan.github.io/tulbox/pdf-manager/templates">→ View the Regex Templates Guide</a></p>]]></content>
+<p><a href="https://zappbrandigan.github.io/pdf-manager/templates">→ View the Regex Templates Guide</a></p>]]></content>
         <author>
             <name>Brandon Johnson</name>
         </author>
@@ -69,11 +108,11 @@
 <p>The beta is live on TūlBOX.
 This post dives into the latest <strong>performance</strong> and <strong>usability</strong> upgrades.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-performance--scale">⚡️ Performance &amp; Scale<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#%EF%B8%8F-performance--scale" class="hash-link" aria-label="Direct link to ⚡️ Performance &amp; Scale" title="Direct link to ⚡️ Performance &amp; Scale">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="performance--scale">Performance &amp; Scale<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#performance--scale" class="hash-link" aria-label="Direct link to Performance &amp; Scale" title="Direct link to Performance &amp; Scale">​</a></h2>
 <table><thead><tr><th>New Tech</th><th>What it solves</th></tr></thead><tbody><tr><td><strong>Virtualized Raw Viewer &amp; Report Tables</strong></td><td>Rows render only when visible, so even 100 k-line CWRs stay buttery smooth.</td></tr><tr><td><strong>Web Workers</strong></td><td>Parsing now runs off the main thread, keeping the UI responsive—even with 100 MB+ files.</td></tr></tbody></table>
-<p><em>Result: can now handle large transmissions <code>~125-150 Mb</code> depending on your systems capabilites.</em></p>
+<p><em>Result: can now handle large transmissions, but capped at <code>~100 Mb</code> to accomodate lower-end systems capabilites.</em></p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-smarter-highlighted-search">🔍 Smarter, Highlighted Search<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#-smarter-highlighted-search" class="hash-link" aria-label="Direct link to 🔍 Smarter, Highlighted Search" title="Direct link to 🔍 Smarter, Highlighted Search">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="smarter-highlighted-search">Smarter, Highlighted Search<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#smarter-highlighted-search" class="hash-link" aria-label="Direct link to Smarter, Highlighted Search" title="Direct link to Smarter, Highlighted Search">​</a></h2>
 <p>Find that elusive record in seconds:</p>
 <ul>
 <li><strong>Unified search bar</strong> works across the virtualized viewer.</li>
@@ -81,17 +120,17 @@ This post dives into the latest <strong>performance</strong> and <strong>usabili
 <li><strong>Next / Previous</strong> arrows (or shortcuts below) cycle through matches and auto-scroll.</li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-pseudo-full-screen-raw-viewer">🖥️ Pseudo Full-Screen Raw Viewer<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#%EF%B8%8F-pseudo-full-screen-raw-viewer" class="hash-link" aria-label="Direct link to 🖥️ Pseudo Full-Screen Raw Viewer" title="Direct link to 🖥️ Pseudo Full-Screen Raw Viewer">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pseudo-full-screen-raw-viewer">Pseudo Full-Screen Raw Viewer<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#pseudo-full-screen-raw-viewer" class="hash-link" aria-label="Direct link to Pseudo Full-Screen Raw Viewer" title="Direct link to Pseudo Full-Screen Raw Viewer">​</a></h2>
 <p>Need extra space? Hit <strong><code>⌘/Ctrl + e</code></strong> or click the new “expand” icon to pop the Raw Viewer into a focused, edge-to-edge mode. Perfect for side-by-side edits.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-field-tooltips--now-toggleable">🛈 Field Tooltips → Now Toggleable<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#-field-tooltips--now-toggleable" class="hash-link" aria-label="Direct link to 🛈 Field Tooltips → Now Toggleable" title="Direct link to 🛈 Field Tooltips → Now Toggleable">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="field-tooltips--now-toggleable">Field Tooltips → Now Toggleable<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#field-tooltips--now-toggleable" class="hash-link" aria-label="Direct link to Field Tooltips → Now Toggleable" title="Direct link to Field Tooltips → Now Toggleable">​</a></h2>
 <p>Mouse-over labels still reveal field names &amp; definitions, but if you already know your <strong>SPU</strong> from your <strong>SWR</strong>, press <strong><code>⌘/Ctrl + k</code></strong> to hide them and reclaim that bit of horizontal room.</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="️-shortcut-recap">⌨️ Shortcut Recap<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#%EF%B8%8F-shortcut-recap" class="hash-link" aria-label="Direct link to ⌨️ Shortcut Recap" title="Direct link to ⌨️ Shortcut Recap">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="shortcut-recap">Shortcut Recap<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#shortcut-recap" class="hash-link" aria-label="Direct link to Shortcut Recap" title="Direct link to Shortcut Recap">​</a></h2>
 <table><thead><tr><th>Action</th><th>macOS / Windows</th></tr></thead><tbody><tr><td>Toggle Search</td><td><code>⌘/Ctrl + f</code></td></tr><tr><td>Expand / Collapse Raw Viewer</td><td><code>⌘/Ctrl + e</code></td></tr><tr><td>Toggle Tooltips</td><td><code>⌘/Ctrl + k</code></td></tr><tr><td>Next / Prev Match</td><td><code>⌘/Ctrl + ↓</code> • <code>⌘/Ctrl + ↑</code></td></tr></tbody></table>
 <p>(You’ll find them in the in-app <strong>?</strong> menu too.)</p>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-miscellaneous-fixes">🛠 Miscellaneous Fixes<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#-miscellaneous-fixes" class="hash-link" aria-label="Direct link to 🛠 Miscellaneous Fixes" title="Direct link to 🛠 Miscellaneous Fixes">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="miscellaneous-fixes">Miscellaneous Fixes<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#miscellaneous-fixes" class="hash-link" aria-label="Direct link to Miscellaneous Fixes" title="Direct link to Miscellaneous Fixes">​</a></h2>
 <ul>
 <li>Batch report now includes <strong>dynamic</strong> writer contribution calculations.</li>
 <li>AKA report now lists <strong>unique</strong> titles only.</li>
@@ -101,27 +140,27 @@ This post dives into the latest <strong>performance</strong> and <strong>usabili
 <li>Minor visual polish &amp; accessibility improvements.</li>
 </ul>
 <hr>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-try-it--tell-me-what-breaks">👉 Try it &amp; tell me what breaks<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#-try-it--tell-me-what-breaks" class="hash-link" aria-label="Direct link to 👉 Try it &amp; tell me what breaks" title="Direct link to 👉 Try it &amp; tell me what breaks">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="try-it--tell-me-what-breaks">Try it &amp; tell me what breaks<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#try-it--tell-me-what-breaks" class="hash-link" aria-label="Direct link to Try it &amp; tell me what breaks" title="Direct link to Try it &amp; tell me what breaks">​</a></h2>
 <p>The beta is live at <strong>TūlBOX → CWR Converter</strong>. As always, this release is best served with fresh feedback:</p>
 <p><em>Found a glitch?</em> Copy the <strong>Bug Entry Template</strong> from the docs and add it to the tracker—or hit the footer’s “Report a Bug” link.</p>
-<p>Happy converting! 🎧📄</p>]]></content>
+<p>Happy converting!</p>]]></content>
         <author>
             <name>Brandon Johnson</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[IMDB Search Update]]></title>
+        <title type="html"><![CDATA[Production Search Update]]></title>
         <id>https://zappbrandigan.github.io/blog/2025/07/02/imdb-update</id>
         <link href="https://zappbrandigan.github.io/blog/2025/07/02/imdb-update"/>
         <updated>2025-07-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[IMDb Tool Update: Country of Origin + Copy-Paste Fixes]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="imdb-tool-update-country-of-origin--copy-paste-fixes">IMDb Tool Update: Country of Origin + Copy-Paste Fixes<a href="https://zappbrandigan.github.io/blog/2025/07/02/imdb-update#imdb-tool-update-country-of-origin--copy-paste-fixes" class="hash-link" aria-label="Direct link to IMDb Tool Update: Country of Origin + Copy-Paste Fixes" title="Direct link to IMDb Tool Update: Country of Origin + Copy-Paste Fixes">​</a></h3>
-<p>Here is quick update about some recent changes to the IMDb tool on TūlBOX! This update focuses on improving data clarity and fixing some annoying copy-paste quirks. Here’s what’s new:</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="-country-of-origin-now-included">✅ Country of Origin Now Included<a href="https://zappbrandigan.github.io/blog/2025/07/02/imdb-update#-country-of-origin-now-included" class="hash-link" aria-label="Direct link to ✅ Country of Origin Now Included" title="Direct link to ✅ Country of Origin Now Included">​</a></h4>
+        <summary type="html"><![CDATA[Production Search Tool Update: Country of Origin + Copy-Paste Fixes]]></summary>
+        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="production-search-tool-update-country-of-origin--copy-paste-fixes">Production Search Tool Update: Country of Origin + Copy-Paste Fixes<a href="https://zappbrandigan.github.io/blog/2025/07/02/imdb-update#production-search-tool-update-country-of-origin--copy-paste-fixes" class="hash-link" aria-label="Direct link to Production Search Tool Update: Country of Origin + Copy-Paste Fixes" title="Direct link to Production Search Tool Update: Country of Origin + Copy-Paste Fixes">​</a></h3>
+<p>Here is quick update about some recent changes to the Production Search tool on TūlBOX! This update focuses on improving data clarity and fixing some annoying copy-paste quirks. Here’s what’s new:</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="country-of-origin-now-included">Country of Origin Now Included<a href="https://zappbrandigan.github.io/blog/2025/07/02/imdb-update#country-of-origin-now-included" class="hash-link" aria-label="Direct link to Country of Origin Now Included" title="Direct link to Country of Origin Now Included">​</a></h4>
 <p>You can now see the country of origin listed alongside each title. This makes it easier to distinguish between international versions of a film or series at a glance—especially helpful for teams handling global metadata.</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="-alternative-titles-copy-paste-fix">🔁 Alternative Titles Copy-Paste Fix<a href="https://zappbrandigan.github.io/blog/2025/07/02/imdb-update#-alternative-titles-copy-paste-fix" class="hash-link" aria-label="Direct link to 🔁 Alternative Titles Copy-Paste Fix" title="Direct link to 🔁 Alternative Titles Copy-Paste Fix">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="alternative-titles-copy-paste-fix">Alternative Titles Copy-Paste Fix<a href="https://zappbrandigan.github.io/blog/2025/07/02/imdb-update#alternative-titles-copy-paste-fix" class="hash-link" aria-label="Direct link to Alternative Titles Copy-Paste Fix" title="Direct link to Alternative Titles Copy-Paste Fix">​</a></h4>
 <p>Previously, copying alternative titles would result in the order being scrambled or inconsistent. That’s now fixed. The tool preserves the display order exactly as shown when copying, so what you see is what you get.</p>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="-imdb-code-copy-trimmed-to-last-9-characters">🔗 IMDb Code Copy Trimmed to Last 9 Characters<a href="https://zappbrandigan.github.io/blog/2025/07/02/imdb-update#-imdb-code-copy-trimmed-to-last-9-characters" class="hash-link" aria-label="Direct link to 🔗 IMDb Code Copy Trimmed to Last 9 Characters" title="Direct link to 🔗 IMDb Code Copy Trimmed to Last 9 Characters">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="imdb-code-copy-trimmed-to-last-9-characters">IMDb Code Copy Trimmed to Last 9 Characters<a href="https://zappbrandigan.github.io/blog/2025/07/02/imdb-update#imdb-code-copy-trimmed-to-last-9-characters" class="hash-link" aria-label="Direct link to IMDb Code Copy Trimmed to Last 9 Characters" title="Direct link to IMDb Code Copy Trimmed to Last 9 Characters">​</a></h4>
 <p>I've cleaned up the IMDb code copy behavior. Instead of copying the full URL or extra characters, it now smartly copies just the last 9-character IMDb ID (e.g.,tt12345678 -&gt; t12345678)—perfect for pasting into internal systems. (This change may be reverted in the future.)</p>
 <p>⸻</p>
 <p>These updates are live now. As always, feel free to reach out with feature suggestions or bugs. More improvements coming soon!</p>]]></content>
@@ -134,18 +173,18 @@ This post dives into the latest <strong>performance</strong> and <strong>usabili
         <id>https://zappbrandigan.github.io/blog/tulbox</id>
         <link href="https://zappbrandigan.github.io/blog/tulbox"/>
         <updated>2025-06-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[🚀 TūlBOX v3 is Live!]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-tūlbox-v3-is-live">🚀 TūlBOX v3 is Live!<a href="https://zappbrandigan.github.io/blog/tulbox#-tu%CC%84lbox-v3-is-live" class="hash-link" aria-label="Direct link to 🚀 TūlBOX v3 is Live!" title="Direct link to 🚀 TūlBOX v3 is Live!">​</a></h2>
+        <summary type="html"><![CDATA[TūlBOX v3 is Live!]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tūlbox-v3-is-live">TūlBOX v3 is Live!<a href="https://zappbrandigan.github.io/blog/tulbox#tu%CC%84lbox-v3-is-live" class="hash-link" aria-label="Direct link to TūlBOX v3 is Live!" title="Direct link to TūlBOX v3 is Live!">​</a></h2>
 <p>I'm excited to announce that <strong>TūlBOX v3</strong> is officially live!</p>
 <p>This release brings a smoother experience, sharper performance, and improved APIs. The existing tools have been refined based on feedback from real-world use and the entire app has been rebuilt from the ground up. It is now ready to host additional tools as they get released!</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-whats-new-in-v3">✅ What’s New in v3<a href="https://zappbrandigan.github.io/blog/tulbox#-whats-new-in-v3" class="hash-link" aria-label="Direct link to ✅ What’s New in v3" title="Direct link to ✅ What’s New in v3">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new-in-v3">What’s New in v3<a href="https://zappbrandigan.github.io/blog/tulbox#whats-new-in-v3" class="hash-link" aria-label="Direct link to What’s New in v3" title="Direct link to What’s New in v3">​</a></h3>
 <ul>
 <li><strong>Improved Speed</strong> – Apps load faster and respond more smoothly.</li>
-<li><strong>Cleaner UI</strong> – I redesigned the tools for clarity and flexibility.</li>
-<li><strong>More Reliable Automation</strong> – Updated back-end pipelines to handle complex files more gracefully.</li>
-<li><strong>Better Metadata Handling</strong> – The IMDb tool has a custom built API.</li>
+<li><strong>Cleaner UI</strong> – Redesigned the tools for clarity and flexibility.</li>
+<li><strong>More Reliable Automation</strong> – Updated Web Workers to handle complex files more gracefully.</li>
+<li><strong>Better Metadata Handling</strong> – The Production Search tool has a custom built API.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="-why-this-matters">💡 Why This Matters<a href="https://zappbrandigan.github.io/blog/tulbox#-why-this-matters" class="hash-link" aria-label="Direct link to 💡 Why This Matters" title="Direct link to 💡 Why This Matters">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-this-matters">Why This Matters<a href="https://zappbrandigan.github.io/blog/tulbox#why-this-matters" class="hash-link" aria-label="Direct link to Why This Matters" title="Direct link to Why This Matters">​</a></h3>
 <p>This update makes it easier to add new tools that are in the works, such as CWR conversion and automated cue sheet stamping.</p>
 <p>This is a 00 release, so there will be blood! I mean bugs. Reach out if you run into anything weird.</p>]]></content>
         <author>
@@ -165,6 +204,5 @@ This post dives into the latest <strong>performance</strong> and <strong>usabili
         <author>
             <name>Brandon Johnson</name>
         </author>
-        <category label="Hello" term="Hello"/>
     </entry>
 </feed>
