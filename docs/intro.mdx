@@ -1,0 +1,82 @@
+---
+sidebar_position: 1
+title: Introduction
+slug: /
+---
+
+import React from 'react';
+import styles from './index.module.css';
+import Link from '@docusaurus/Link';
+
+export default function IntroPage() {
+  return (
+    <main>
+      <section className={styles.hero} role="banner">
+        <div className={styles.heroInner}>
+          <h1 className={styles.title}>TūlBOX v3</h1>
+          <p className={styles.tagline}>
+            🚀 Your browser-based toolkit for <strong>faster Film & TV music administration</strong>.
+          </p>
+          <p className={styles.sub}>No installs. No setup. Just open &amp; start working.</p>
+          <div className={styles.heroCta}>
+            <Link className={styles.ctaButton} to="https://tulbox.app">Get started</Link>
+            <Link className={styles.ctaLink} to="/pdf-manager/overview">Explore tools →</Link>
+          </div>
+        </div>
+      </section>
+      <section className={styles.section}>
+        <h2 className={styles.h2}>Why TūlBOX?</h2>
+        <div className={styles.grid3}>
+          <article className={styles.card}>
+            <h3 className={styles.h3}>Purpose-Built Tools</h3>
+            <p>Designed for Film &amp; TV music admin teams with real workflows in mind.</p>
+          </article>
+          <article className={styles.card}>
+            <h3 className={styles.h3}>Instant Onboarding</h3>
+            <p>Everything runs in your browser — no installs, no learning curve.</p>
+          </article>
+          <article className={styles.card}>
+            <h3 className={styles.h3}>Consistent Results</h3>
+            <p>Reduce errors and speed up processing with automated accuracy.</p>
+          </article>
+        </div>
+      </section>
+      <section className={styles.section}>
+        <h2 className={styles.h2}>Current Tools</h2>
+        <div className={styles.grid3}>
+          <article className={styles.card}>
+            <h3 className={styles.h3}>📂 PDF Manager</h3>
+            <p>Drag-and-drop uploads, smart batch renaming (regex-ready), duplicate detection, and one-click clean exports.</p>
+          </article>
+          <article className={styles.card}>
+            <h3 className={styles.h3}>🎬 Production Search</h3>
+            <p>Aggregate film/TV/game data, cast &amp; crew info, AKA titles with transliteration, and copy-ready IMDb IDs.</p>
+          </article>
+          <article className={styles.card}>
+            <h3 className={styles.h3}>📊 CWR Converter</h3>
+            <p>Field tooltips, full-screen mode, global search, templated reports, and CSV export.</p>
+          </article>
+          <article className={styles.card}>
+          <h3 className={styles.h3}>🎼 Cue Sheet Converter</h3>
+          <p>
+            Convert cue sheet PDFs into clean, structured data in seconds.
+            One-click CSV export for downstream workflows.
+          </p>
+        </article>
+        </div>
+      </section>
+      <section className={styles.section}>
+        <h2 className={styles.h2}>On the Roadmap</h2>
+        <ul className={styles.list}>
+          <li>Real-time search highlighting for PDF Manager</li>
+          <li>New CWR Reports</li>
+          <li>Cue Sheet Converter support for RapidCue</li>
+          <li>Cue sheet stamping tool</li>
+        </ul>
+        <div className={styles.ctaBox}>
+          💡 Have an idea? Email <strong>brandon@tulbox.app</strong> or use the in-app <em>Feedback</em> link.
+        </div>
+      </section>
+    </main>
+  );
+}

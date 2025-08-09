@@ -3,111 +3,110 @@ title: Regex Templates
 sidebar_position: 4
 ---
 
+import RegexExample from '@site/src/components/RegexExample';
+
 # General Regex Templates Guide
 
-Use these built-in templates in the **Search & Replace** tool to quickly reformat file names. These rules can be used standalone or in sequence with other templates to achieve the desired structure.
+The built-in **Regex Templates** in PDF Manager’s **Search & Replace** tool let you apply powerful renaming patterns instantly — no need to memorize syntax.  
 
-## Using the templates
-
-1. Click **Show Templates** in *Search & Replace*.
-2. Choose a template from the dropdown list.
-3. Review the preview table to verify the changes.
-
-If the result is incorrect, try a different template or manually adjust the rule.
+You can use templates:
+- **Standalone** — apply one rule to quickly reformat files.
+- **In sequence** — stack multiple templates for complex restructuring.
 
 ---
 
-## Available Templates
+## 🛠 How to use a template
 
-### 📆 Date Conversion 1
-
-**Description:** Swaps the day/month parts of a date with an abbreviated year and appends `20` to the year.  
-**Example:** `011425` → `14012025`
-
-* **Search:** `(\d{2})(\d{2})(\d{2})`
-* **Replace:** `$2$120$3`
-
-Use when dealing with 6-digit dates (ddmmyy).
+1. Open **Search & Replace**.
+2. Click **Show Templates**.
+3. Select a template from the dropdown.
+4. The search and replace fields will be pre-filled.
+5. Review the preview table for changes.
 
 ---
 
-### 📆 Date Conversion 2
+## 📂 Available Templates
 
-**Description:** Swaps the day/month parts of a date with full year.  
-**Example:** `01142025` → `14012025`
+<RegexExample
+  title="📆 Date Conversion 1 — 6-digit dates"
+  pattern="(\d{2})(\d{2})(\d{2})"
+  replace="$2$120$3"
+  before="Dinosaurs are cool Ep No. 010225"
+/>
 
-* **Search:** `(\d{2})(\d{2})(\d{4})`
-* **Replace:** `$2$1$3`
+**When to use:** Dates in `ddmmyy` or `mmddyy` format where you need to swap day/month and expand the year.  
 
-Use when dealing with 8-digit dates (ddmmyyyy).
+---
+<RegexExample
+  title="📆 Date Conversion 2 — 8-digit dates"
+  pattern="(\d{2})(\d{2})(\d{4})"
+  replace="$2$1$3"
+  before="Words are weird Ep No. 01142025"
+  note="Works only with exactly 8 digits; keeps the full 4-digit year."
+/>
+
+**When to use:** Dates in `ddmmyyyy` or `mmddyyyy` format where you need to swap day/month.  
 
 ---
 
-### 🆔 Add "Ep No."
-
-**Description:** Adds the "Ep No." prefix to the last number in the filename.  
-**Example:** `011425` → `Ep No. 011425`
-
-* **Search:** `(\d+)$`
-* **Replace:** `Ep No. $1`
-
-Helpful when preparing cue-sheet filenames that don’t yet include the label.
+<RegexExample
+  title='🆔 Add "Ep No."'
+  pattern="(\d+)$"
+  replace="Ep No. $1"
+  before="Oops, I Did It Again 1001"
+  note="Matches on the final numeric sequence in the filename; useful for files that already have partial episode numbers in the filename."
+/>
 
 ---
 
-### 🔀 Reorder Tokens
+<RegexExample
+  title="🔀 Reorder Tokens"
+  pattern="^(.+)\s\-\s(.+)\s\-\s(.+)$"
+  replace="$1   $3  Ep No. $2"
+  before="THIS SHOW - 101 - Exists Probably"
+  note='Inserts three spaces before episode title and two spaces before "Ep No." (to match cue-sheet delimiter rules); useful for files exported from Soundmouse.'
+/>
 
-**Description:** Rearranges common file naming patterns.  
-**Example:** `Prod Title - 104 - Ep Title` → `Prod Title   Ep Title  Ep No. 104`
-
-* **Search:** `(.+)\s\-\s(.+)\s\-\s(.+)`
-* **Replace:** `$1   $3  Ep No. $2`
-
-Great for aligning with cue-sheet conventions.
-
----
-
-### 0️⃣ Zero Pad Episode Suffix
-
-**Description:** Pads two-digit episode numbers with a leading `0`.  
-**Example:** `Ep No. 113` → `Ep No. 1013`
-
-* **Search:** `(\d{2}$)`
-* **Replace:** `0$1`
-
-Only applies to filenames ending with a two-digit number.
+**When to use:** Files follow a `Prod - EpisodeNum - EpisodeTitle` format and need to be rearranged for cue-sheet conventions.  
 
 ---
 
-### ➖ Replace Dashes
+<RegexExample
+  title="0️⃣ Zero Pad Episode Suffix"
+  pattern="(\d{2}$)"
+  replace="0$1"
+  before="What is a number 101"
+  note='Works only when the last two characters in the filename are numbers; change the pad value or count by changing "0" in the replace bar.'
+/>
 
-**Description:** Replaces all hyphens with underscores.  
-**Example:** `Episode-Title` → `Episode_Title`
-
-* **Search:** `-`
-* **Replace:** `_`
-
----
-
-### ␣ Replace Spaces
-
-**Description:** Replaces all spaces with dashes.  
-**Example:** `Episode Title` → `Episode-Title`
-
-* **Search:** ` `
-* **Replace:** `-`
+**When to use:** Episode numbers have only three digits and must be padded to four.  
 
 ---
 
-:::tip Want to automate more?
+## 🔗 Stacking templates for more power
 
-Stack templates together for fast batch cleanup. For example, add **Reorder Tokens**, **Zero Pad Episode Suffix**, then **Cue Sheet T1** to the rules stack (the order matters).
-The result would look like this:  
- ```
-  original: production title - 101 - episode title
-  new: PRODUCTION TITLE   Episode Title  Ep No. 1001
-  ```
+You can chain templates together to transform filenames in a single pass.  
+The **order matters** — earlier rules affect later ones.
 
-:::
+Example stack:
+1. **Reorder Tokens**
+2. **Zero Pad Episode Suffix**
+3. [**Cue Sheet T1**](./cue-sheets.md)
 
-If you need a new preset, reach out or submit a request!
+```
+Before: mary had a little lamb - 101 - and no one talks about it
+After:  MARY HAD A LITTLE LAMB   And No One Talks. . .  Ep No. 1001
+```
+
+---
+
+## 💡 Pro tips
+- Test on a small batch before running on 100+ files.
+- Use **regex groups** like `$1`, `$2`, `$3` to rearrange text without losing parts.
+- Regex is **case-sensitive** unless you check the “Ignore Case” option.
+- Use the **shortcut keys**!
+
+---
+
+If you need a new preset template, reach out via the TūlBOX support links!
+

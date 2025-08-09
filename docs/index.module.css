@@ -1,0 +1,311 @@
+/* Uses Docusaurus theme tokens so it matches light/dark automatically */
+.hero {
+  text-align: center;
+  padding: 3.5rem 1rem 2rem;
+}
+
+.title {
+  font-size: clamp(2rem, 3vw + 1rem, 3rem);
+  font-weight: 800;
+  color: var(--ifm-font-color-base);
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.tagline {
+  margin: 0.75rem auto 0;
+  max-width: 60ch;
+  font-size: 1.125rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.sub {
+  margin: 0.25rem auto 0;
+  max-width: 60ch;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.rule {
+  border: 0;
+  height: 1px;
+  background: var(--ifm-color-emphasis-200);
+  margin: 1.75rem auto 0;
+  width: min(900px, 92%);
+}
+
+.section {
+  margin: 2rem auto;
+  padding: 0 1rem;
+  max-width: 1100px;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0 0 1rem;
+  letter-spacing: -0.01em;
+}
+
+.h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+}
+
+.grid3 {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 800px) {
+  .grid3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-surface-color);
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.card:hover,
+.card:focus-within {
+  transform: translateY(-2px);
+  box-shadow: var(--ifm-global-shadow-md);
+  border-color: var(--ifm-color-primary);
+}
+
+.card p {
+  margin: 0.35rem 0 0;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* List + CTA */
+.list {
+  margin: 0.5rem 0 0.75rem 1rem;
+}
+
+.cta {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid color-mix(in oklab, var(--ifm-color-primary) 45%, transparent);
+  background: color-mix(in oklab, var(--ifm-color-primary) 12%, transparent);
+}
+
+/* Dark-mode fine-tuning */
+:root[data-theme='dark'] .rule {
+  background: var(--ifm-color-emphasis-300);
+}
+:root[data-theme='dark'] .card {
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+/* Motion-respectful */
+@media (prefers-reduced-motion: reduce) {
+  .card {
+    transition: none;
+  }
+}
+o/* ---- Hero ---- */
+.hero {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  padding: clamp(3rem, 6vw, 6rem) 1rem;
+  background:
+    /* subtle grid */
+    linear-gradient(
+      to bottom right,
+      color-mix(in oklab, var(--ifm-color-primary) 10%, transparent),
+      transparent 40%
+    ),
+    radial-gradient(1000px 500px at 85% -10%,
+      color-mix(in oklab, var(--ifm-color-primary) 22%, transparent),
+      transparent 60%
+    ),
+    radial-gradient(800px 400px at -10% 20%,
+      color-mix(in oklab, var(--ifm-color-info) 18%, transparent),
+      transparent 60%
+    ),
+    var(--hero-grid, none);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* dot grid overlay via mask for texture, theme-aware */
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(currentColor 1px, transparent 1.5px);
+  background-size: 18px 18px;
+  opacity: 0.08;
+  color: var(--ifm-color-emphasis-900);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+}
+
+:root[data-theme='dark'] .hero::after {
+  opacity: 0.06;
+  color: var(--ifm-color-emphasis-100);
+}
+
+.heroInner {
+  margin: 0 auto;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.title {
+  font-size: clamp(2.25rem, 3.5vw + 1rem, 3.5rem);
+  font-weight: 800;
+  color: var(--ifm-font-color-base);
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.tagline {
+  margin: 0.9rem auto 0;
+  max-width: 68ch;
+  font-size: 1.15rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.sub {
+  margin: 0.4rem auto 0;
+  max-width: 68ch;
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* CTA */
+.heroCta {
+  margin-top: 1.25rem;
+  display: inline-flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--ifm-color-white);
+  background: var(--ifm-color-primary);
+  border: 1px solid color-mix(in oklab, var(--ifm-color-primary) 80%, black);
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: transform 150ms ease, box-shadow 150ms ease, background 150ms ease;
+}
+.ctaButton:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--ifm-global-shadow-md);
+  background: color-mix(in oklab, var(--ifm-color-primary) 90%, white);
+}
+
+.ctaLink {
+  display: inline-block;
+  padding: 0.55rem 0.8rem;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--ifm-color-primary);
+  border: 1px solid color-mix(in oklab, var(--ifm-color-primary) 45%, transparent);
+  background: color-mix(in oklab, var(--ifm-color-primary) 10%, transparent);
+  transition: transform 150ms ease, box-shadow 150ms ease, border-color 150ms ease;
+}
+.ctaLink:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--ifm-global-shadow-lw);
+  border-color: var(--ifm-color-primary);
+}
+
+/* ---- Sections ---- */
+.section {
+  margin: 2rem auto;
+  padding: 0 1rem;
+  max-width: 1100px;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0 0 1rem;
+  letter-spacing: -0.01em;
+}
+
+.h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 0.35rem;
+}
+
+.grid3 {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 800px) {
+  .grid3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-surface-color);
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+.card:hover,
+.card:focus-within {
+  transform: translateY(-2px);
+  box-shadow: var(--ifm-global-shadow-md);
+  border-color: var(--ifm-color-primary);
+}
+.card p {
+  margin: 0.35rem 0 0;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* List + CTA */
+.list {
+  margin: 0.5rem 0 0.75rem 1rem;
+}
+
+.ctaBox {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 12px;
+  border: 1px solid color-mix(in oklab, var(--ifm-color-primary) 45%, transparent);
+  background: color-mix(in oklab, var(--ifm-color-primary) 12%, transparent);
+}
+
+/* Dark tweaks */
+:root[data-theme='dark'] .hero {
+  border-bottom-color: var(--ifm-color-emphasis-300);
+}
+:root[data-theme='dark'] .card {
+  border-color: var(--ifm-color-emphasis-300);
+}
+
+/* Motion-respectful */
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .ctaButton,
+  .ctaLink {
+    transition: none;
+  }
+}

@@ -4,41 +4,75 @@ slug: overview
 sidebar_position: 1
 ---
 
-# PDF Manager – Quick Start
+# PDF Manager – Quick Start 
 
-The **PDF Manager** lets you rename large batches of PDF files in seconds.
+The **PDF Manager** is designed to rename large batches of PDF files in seconds while maintaining consistent formatting and eliminating manual errors.  
+Whether you’re preparing cue sheets, reports, or any other bulk documents, the workflow is simple, fast, and flexible.
 
-## Workflow
+---
 
-1. **Upload files**
-   Drag‑and‑drop or click **Browse** to add PDFs.
-   *Soft limit: 100 files per batch.* Need more? Reach out via the links in TūlBOX’s footer.
+## 🚀 Typical Workflow
 
-2. **Review & edit**
-   Files appear in a table. Click the ✏️ icon to rename a single file in place.
+### 1. **Upload your files**
+- Drag-and-drop one or more PDF files directly into the tool, or click **Browse** to select from your computer.  
+- **Soft limit:** 200 files per batch.  
+  > Need to process more than 200? Use multiple batches or contact support using the links in TūlBOX’s footer.
 
-3. **Batch‑rename**
-   Open **Search & Replace** to stack one or more rules (supports full RegExp syntax).
-   Click **Apply Rules** to preview every change.
+💡 **Tip:** PDFs can be uploaded in any order — the tool sorts and processes them automatically.
 
-4. **Check status**
-   The status pill for each row tells you whether the filename is **Valid**, **Modified**, **Dotified**, **Invalid**, or **Duplicate** (see [Status Indicators](./status-indicator)).
+---
 
-:::warning 
+### 2. **Review & edit**
+- Uploaded files appear in a **table view** with columns for the original and previewed filenames.
+- To rename a single file:
+  - Click the ✏️ edit icon next to its name.
+  - Make your changes directly in place.
+  - Press **Enter** or click away to save.
+- All edits are applied immediately to the preview but do not overwrite the original until download.
 
-Cue‑sheet rules are now optional. The tool no longer enforces cue‑sheet conventions by default.
-Select a quick template if you still need that format.
+---
 
-:::
+### 3. **Batch-rename with Search & Replace**
+- Add a **Search & Replace** rule to define one or more rename rules.
+- Rules support **full Regular Expression syntax**, allowing advanced matching and replacements.
+- You can stack multiple rules — they run in order from top to bottom.
+- Click **Apply Rules** to preview changes instantly for every file.
 
-5. **Download**
-   When all rows are green, hit **Download All** to grab a zip of the renamed files.
+💡 **Power Tip:** Save time by using **Quick Templates** inside Search & Replace for common naming patterns (e.g., cue-sheet formats, date reformatting, or spacing fixes).
 
-6. **Clear**
-   Click **Clear All** to reset the table.
+---
 
-:::tip
+### 4. **Check file status**
+Each file shows a **status pill** in the table.  
+Possible statuses:
 
-* Use the **quick templates** inside *Search & Replace* for common patterns.
+| Status       | Meaning |
+|--------------|---------|
+| **Valid**    | Name meets all current rules and formatting requirements. |
+| **Modified** | Name has been manually or automatically updated. |
+| **Dotified** | Name contains `. . .` formatting applied via a template or rule. |
+| **Invalid**  | Name fails length, character, or formatting checks. |
+| **Duplicate**| Another file in the batch has the same name. |
 
-:::
+> See the full [Status Indicators](./status-indicator) guide for details.
+
+---
+
+### 5. **Download renamed files**
+- Once all files show a green or blue status (Valid, Modfied, Dotified), click **Download All**.
+- The tool bundles all renamed files into a single `.zip` archive.
+- Original files remain untouched on your computer.
+- You can also choose to download individual files.
+
+---
+
+### 6. **Clear the workspace**
+- Click **Clear All** to remove every file from the table and start fresh.
+
+---
+
+## 💡 Additional Tips & Tricks
+
+- **Mixed formats?** Use separate Search & Replace runs for different file types or naming patterns before downloading.
+- **Need precision?** Combine manual edits and batch rules — they work together.
+
