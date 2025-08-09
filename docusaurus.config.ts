@@ -35,8 +35,11 @@ const config: Config = {
         blog: {
           showReadingTime: true,
           feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
+            type: 'all', // 'rss' | 'atom' | 'all'
+            title: 'TūlBOX Updates',
+            description: 'Updates and release notes for TūlBOX tools.',
+            copyright: `Copyright © ${new Date().getFullYear()} Brandon Johnson`,
+            language: 'en',
           },
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',

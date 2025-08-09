@@ -3,10 +3,11 @@ title: CWR Converter (beta)
 authors: zappbrandigan
 ---
 
-## New tool update: **CWR Converter**!
+The CWR Converter is now part of TūlBOX — a browser-based tool that makes it easy to view, search, and report on Common Works Registration (CWR) files without specialized software.
 
-The beta is live on TūlBOX.
-This post dives into the latest **performance** and **usability** upgrades.
+Traditionally, analyzing CWR files has been a slow, technical process, often requiring command-line tools, custom scripts, or manual spreadsheet work. Even small tasks — like verifying writer shares or matching works across submissions — could mean hours of scrolling through raw text.
+
+The CWR Converter is removing those barriers, allowing you to open files directly in your browser, search instantly, and generate detailed reports in seconds.
 
 <!-- truncate -->
 ---

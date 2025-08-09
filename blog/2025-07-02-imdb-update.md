@@ -3,8 +3,6 @@ title: Production Search Update
 authors: [zappbrandigan]
 ---
 
-### Production Search Tool Update: Country of Origin + Copy-Paste Fixes
-
 Here is quick update about some recent changes to the Production Search tool on TūlBOX! This update focuses on improving data clarity and fixing some annoying copy-paste quirks. Here’s what’s new:
 
 <!-- truncate -->

@@ -4,7 +4,11 @@ title: Cue Sheet Converter (beta)
 authors: [zappbrandigan]
 ---
 
-Excited to announce the release of the **Cue Sheet Converter** in TūlBOX — a fast, in-browser tool for extracting and formatting music cue sheet data.
+The Cue Sheet Converter is now available in TūlBOX — a fast, browser-based tool built to simplify the extraction and formatting of music cue sheet data.
+
+In music publishing, converting cue sheet PDFs into usable, structured data can be one of the most time-consuming and error-prone tasks in the process. Tracking every episode where a work or composer split appears — by manually scanning PDFs — is tedious at best.
+
+Enter the Cue Sheet Converter.
 
 <!-- truncate -->
 

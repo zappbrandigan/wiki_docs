@@ -3,9 +3,7 @@ title: New Renaming Templates
 authors: zappbrandigan
 ---
 
-# New Regex Templates Available in TūlBOX!
-
-I’ve added a fresh set of **regex templates** to the *Search & Replace* tool — making it even easier to format your file names consistently, cleanly, and fast.
+A fresh set of **regex templates** has been added to the *Search & Replace* tool — making it even easier to format your file names consistently, cleanly, and fast.
 
 These new templates are designed to pair seamlessly with the existing **Cue Sheet** presets. Whether you’re converting date formats, reordering titles, or applying final polish to naming conventions, these tools can now handle it in a click.
 
