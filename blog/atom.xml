@@ -8,7 +8,7 @@
     <subtitle>Docs Blog</subtitle>
     <icon>https://zappbrandigan.github.io/img/favicon.svg</icon>
     <entry>
-        <title type="html"><![CDATA[New Tool – Cue Sheet Converter]]></title>
+        <title type="html"><![CDATA[Cue Sheet Converter (beta)]]></title>
         <id>https://zappbrandigan.github.io/blog/cue-sheet-converter</id>
         <link href="https://zappbrandigan.github.io/blog/cue-sheet-converter"/>
         <updated>2025-08-01T00:00:00.000Z</updated>
@@ -16,32 +16,33 @@
         <content type="html"><![CDATA[<p>Excited to announce the release of the <strong>Cue Sheet Converter</strong> in TūlBOX — a fast, in-browser tool for extracting and formatting music cue sheet data.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-it-does">What it does<a href="https://zappbrandigan.github.io/blog/cue-sheet-converter#what-it-does" class="hash-link" aria-label="Direct link to What it does" title="Direct link to What it does">​</a></h2>
 <p>The Cue Sheet Converter takes raw cue sheet files (<strong>PDF</strong>) and transforms them into clean, structured data for easy review and downstream use.</p>
-<p>This reduces manual scanning pdf files line-by-line — the converter parses the file automatically and outputs a neatly organized table view.</p>
+<p>No more manually scanning PDF files line-by-line — the converter parses the file automatically and outputs a neatly organized table view.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-features">Key features<a href="https://zappbrandigan.github.io/blog/cue-sheet-converter#key-features" class="hash-link" aria-label="Direct link to Key features" title="Direct link to Key features">​</a></h2>
 <ul>
 <li><strong>Drag-and-drop upload</strong> for quick file selection</li>
 <li><strong>Automatic parsing</strong> of Soundmouse-formatted cue sheets</li>
-<li><strong>Table view</strong> for a quick preview of the extracted data</li>
+<li><strong>Table view</strong> for instant preview of extracted data</li>
 <li><strong>Column metadata mapping</strong> for consistent exports</li>
-<li><strong>Warnings</strong> to notify you of missing or unexpected data</li>
-<li><strong>Copy or download</strong> results in CSV format for reporting or archiving</li>
+<li><strong>Warnings</strong> for missing or unexpected data</li>
+<li><strong>One-click CSV download</strong> for reporting or archiving</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-it-works">How it works<a href="https://zappbrandigan.github.io/blog/cue-sheet-converter#how-it-works" class="hash-link" aria-label="Direct link to How it works" title="Direct link to How it works">​</a></h2>
 <ol>
-<li>Upload your cue sheet file</li>
-<li>The converter scans for titles, writers, publishers, durations, and other key fields</li>
-<li>Data is displayed in an table inside your browser</li>
-<li>Export as needed — no server processing, so your files stay local</li>
+<li>Upload your cue sheet file.</li>
+<li>The converter scans for titles, writers, publishers, durations, and other key fields.</li>
+<li>Data preview is displayed directly in your browser.</li>
+<li>Export to CSV — no server processing, so your files stay local and secure.</li>
 </ol>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-it-matters">Why it matters<a href="https://zappbrandigan.github.io/blog/cue-sheet-converter#why-it-matters" class="hash-link" aria-label="Direct link to Why it matters" title="Direct link to Why it matters">​</a></h2>
-<p>This tool removes the tedious manual entry step and reduces the risk of typos or mismatched metadata. It’s especially useful for episode linking with high volumes of cue sheets.</p>
+<p>This tool <strong>alleviates</strong> the tedious PDF-scanning process and reduces the risk of typos or missed metadata.<br>
+<!-- -->It’s especially valuable when linking episodes across <strong>high volumes of cue sheets</strong>.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What’s next<a href="https://zappbrandigan.github.io/blog/cue-sheet-converter#whats-next" class="hash-link" aria-label="Direct link to What’s next" title="Direct link to What’s next">​</a></h2>
 <ul>
-<li><strong>More formats:</strong> RapidCue and CueSpark files</li>
+<li><strong>More formats:</strong> RapidCue and CueSpark support are planned for upcoming releases.</li>
 </ul>
 <hr>
 <p>📍 <strong>Try it now</strong> — open the Cue Sheet Converter from the TūlBOX tools menu.<br>
-<!-- -->I’d love to hear your feedback — use the <strong>Feature Request</strong> link in the footer to share ideas for improvements.</p>]]></content>
+<!-- -->We’d love to hear your feedback — use the <strong>Feature Request</strong> link in the footer to share ideas for improvements.</p>]]></content>
         <author>
             <name>Brandon Johnson</name>
         </author>
