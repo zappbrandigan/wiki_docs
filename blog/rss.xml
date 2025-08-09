@@ -1,20 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Docs Blog</title>
+        <title>TūlBOX Updates</title>
         <link>https://zappbrandigan.github.io/blog</link>
-        <description>Docs Blog</description>
+        <description>Updates and release notes for TūlBOX tools.</description>
         <lastBuildDate>Fri, 01 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <copyright>Copyright © 2025 Brandon Johnson</copyright>
         <item>
             <title><![CDATA[Cue Sheet Converter (beta)]]></title>
             <link>https://zappbrandigan.github.io/blog/cue-sheet-converter</link>
             <guid>https://zappbrandigan.github.io/blog/cue-sheet-converter</guid>
             <pubDate>Fri, 01 Aug 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Excited to announce the release of the Cue Sheet Converter in TūlBOX — a fast, in-browser tool for extracting and formatting music cue sheet data.]]></description>
-            <content:encoded><![CDATA[<p>Excited to announce the release of the <strong>Cue Sheet Converter</strong> in TūlBOX — a fast, in-browser tool for extracting and formatting music cue sheet data.</p>
+            <description><![CDATA[The Cue Sheet Converter is now available in TūlBOX — a fast, browser-based tool built to simplify the extraction and formatting of music cue sheet data.]]></description>
+            <content:encoded><![CDATA[<p>The Cue Sheet Converter is now available in TūlBOX — a fast, browser-based tool built to simplify the extraction and formatting of music cue sheet data.</p>
+<p>In music publishing, converting cue sheet PDFs into usable, structured data can be one of the most time-consuming and error-prone tasks in the process. Tracking every episode where a work or composer split appears — by manually scanning PDFs — is tedious at best.</p>
+<p>Enter the Cue Sheet Converter.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-it-does">What it does<a href="https://zappbrandigan.github.io/blog/cue-sheet-converter#what-it-does" class="hash-link" aria-label="Direct link to What it does" title="Direct link to What it does">​</a></h2>
 <p>The Cue Sheet Converter takes raw cue sheet files (<strong>PDF</strong>) and transforms them into clean, structured data for easy review and downstream use.</p>
 <p>No more manually scanning PDF files line-by-line — the converter parses the file automatically and outputs a neatly organized table view.</p>
@@ -44,14 +47,15 @@
 <hr>
 <p>📍 <strong>Try it now</strong> — open the Cue Sheet Converter from the TūlBOX tools menu.<br>
 <!-- -->We’d love to hear your feedback — use the <strong>Feature Request</strong> link in the footer to share ideas for improvements.</p>]]></content:encoded>
+            <author>brandon@tulbox.app (Brandon Johnson)</author>
         </item>
         <item>
             <title><![CDATA[New Renaming Templates]]></title>
             <link>https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager</link>
             <guid>https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager</guid>
             <pubDate>Fri, 18 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[I’ve added a fresh set of regex templates to the Search & Replace tool — making it even easier to format your file names consistently, cleanly, and fast.]]></description>
-            <content:encoded><![CDATA[<p>I’ve added a fresh set of <strong>regex templates</strong> to the <em>Search &amp; Replace</em> tool — making it even easier to format your file names consistently, cleanly, and fast.</p>
+            <description><![CDATA[A fresh set of regex templates has been added to the Search & Replace tool — making it even easier to format your file names consistently, cleanly, and fast.]]></description>
+            <content:encoded><![CDATA[<p>A fresh set of <strong>regex templates</strong> has been added to the <em>Search &amp; Replace</em> tool — making it even easier to format your file names consistently, cleanly, and fast.</p>
 <p>These new templates are designed to pair seamlessly with the existing <strong>Cue Sheet</strong> presets. Whether you’re converting date formats, reordering titles, or applying final polish to naming conventions, these tools can now handle it in a click.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new">What’s New<a href="https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager#whats-new" class="hash-link" aria-label="Direct link to What’s New" title="Direct link to What’s New">​</a></h2>
 <p>Here are the new built-in templates:</p>
@@ -93,16 +97,17 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="read-the-docs">Read the Docs<a href="https://zappbrandigan.github.io/blog/2025/07/18/pdf-manager#read-the-docs" class="hash-link" aria-label="Direct link to Read the Docs" title="Direct link to Read the Docs">​</a></h2>
 <p>You’ll find a new guide in the docs titled <strong>Regex Templates</strong>, which walks through each of these rules with examples and usage notes.</p>
 <p><a href="https://zappbrandigan.github.io/pdf-manager/templates">→ View the Regex Templates Guide</a></p>]]></content:encoded>
+            <author>brandon@tulbox.app (Brandon Johnson)</author>
         </item>
         <item>
             <title><![CDATA[CWR Converter (beta)]]></title>
             <link>https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update</link>
             <guid>https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update</guid>
             <pubDate>Mon, 14 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[New tool update: CWR Converter!]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="new-tool-update-cwr-converter">New tool update: <strong>CWR Converter</strong>!<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#new-tool-update-cwr-converter" class="hash-link" aria-label="Direct link to new-tool-update-cwr-converter" title="Direct link to new-tool-update-cwr-converter">​</a></h2>
-<p>The beta is live on TūlBOX.
-This post dives into the latest <strong>performance</strong> and <strong>usability</strong> upgrades.</p>
+            <description><![CDATA[The CWR Converter is now part of TūlBOX — a browser-based tool that makes it easy to view, search, and report on Common Works Registration (CWR) files without specialized software.]]></description>
+            <content:encoded><![CDATA[<p>The CWR Converter is now part of TūlBOX — a browser-based tool that makes it easy to view, search, and report on Common Works Registration (CWR) files without specialized software.</p>
+<p>Traditionally, analyzing CWR files has been a slow, technical process, often requiring command-line tools, custom scripts, or manual spreadsheet work. Even small tasks — like verifying writer shares or matching works across submissions — could mean hours of scrolling through raw text.</p>
+<p>The CWR Converter is removing those barriers, allowing you to open files directly in your browser, search instantly, and generate detailed reports in seconds.</p>
 <hr>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="performance--scale">Performance &amp; Scale<a href="https://zappbrandigan.github.io/blog/2025/07/14/cwr-beta-update#performance--scale" class="hash-link" aria-label="Direct link to Performance &amp; Scale" title="Direct link to Performance &amp; Scale">​</a></h2>
 <table><thead><tr><th>New Tech</th><th>What it solves</th></tr></thead><tbody><tr><td><strong>Virtualized Raw Viewer &amp; Report Tables</strong></td><td>Rows render only when visible, so even 100 k-line CWRs stay buttery smooth.</td></tr><tr><td><strong>Web Workers</strong></td><td>Parsing now runs off the main thread, keeping the UI responsive—even with 100 MB+ files.</td></tr></tbody></table>
@@ -140,15 +145,15 @@ This post dives into the latest <strong>performance</strong> and <strong>usabili
 <p>The beta is live at <strong>TūlBOX → CWR Converter</strong>. As always, this release is best served with fresh feedback:</p>
 <p><em>Found a glitch?</em> Copy the <strong>Bug Entry Template</strong> from the docs and add it to the tracker—or hit the footer’s “Report a Bug” link.</p>
 <p>Happy converting!</p>]]></content:encoded>
+            <author>brandon@tulbox.app (Brandon Johnson)</author>
         </item>
         <item>
             <title><![CDATA[Production Search Update]]></title>
             <link>https://zappbrandigan.github.io/blog/2025/07/02/imdb-update</link>
             <guid>https://zappbrandigan.github.io/blog/2025/07/02/imdb-update</guid>
             <pubDate>Wed, 02 Jul 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Production Search Tool Update: Country of Origin + Copy-Paste Fixes]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="production-search-tool-update-country-of-origin--copy-paste-fixes">Production Search Tool Update: Country of Origin + Copy-Paste Fixes<a href="https://zappbrandigan.github.io/blog/2025/07/02/imdb-update#production-search-tool-update-country-of-origin--copy-paste-fixes" class="hash-link" aria-label="Direct link to Production Search Tool Update: Country of Origin + Copy-Paste Fixes" title="Direct link to Production Search Tool Update: Country of Origin + Copy-Paste Fixes">​</a></h3>
-<p>Here is quick update about some recent changes to the Production Search tool on TūlBOX! This update focuses on improving data clarity and fixing some annoying copy-paste quirks. Here’s what’s new:</p>
+            <description><![CDATA[Here is quick update about some recent changes to the Production Search tool on TūlBOX! This update focuses on improving data clarity and fixing some annoying copy-paste quirks. Here’s what’s new:]]></description>
+            <content:encoded><![CDATA[<p>Here is quick update about some recent changes to the Production Search tool on TūlBOX! This update focuses on improving data clarity and fixing some annoying copy-paste quirks. Here’s what’s new:</p>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="country-of-origin-now-included">Country of Origin Now Included<a href="https://zappbrandigan.github.io/blog/2025/07/02/imdb-update#country-of-origin-now-included" class="hash-link" aria-label="Direct link to Country of Origin Now Included" title="Direct link to Country of Origin Now Included">​</a></h4>
 <p>You can now see the country of origin listed alongside each title. This makes it easier to distinguish between international versions of a film or series at a glance—especially helpful for teams handling global metadata.</p>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="alternative-titles-copy-paste-fix">Alternative Titles Copy-Paste Fix<a href="https://zappbrandigan.github.io/blog/2025/07/02/imdb-update#alternative-titles-copy-paste-fix" class="hash-link" aria-label="Direct link to Alternative Titles Copy-Paste Fix" title="Direct link to Alternative Titles Copy-Paste Fix">​</a></h4>
@@ -157,15 +162,15 @@ This post dives into the latest <strong>performance</strong> and <strong>usabili
 <p>I've cleaned up the IMDb code copy behavior. Instead of copying the full URL or extra characters, it now smartly copies just the last 9-character IMDb ID (e.g.,tt12345678 -&gt; t12345678)—perfect for pasting into internal systems. (This change may be reverted in the future.)</p>
 <p>⸻</p>
 <p>These updates are live now. As always, feel free to reach out with feature suggestions or bugs. More improvements coming soon!</p>]]></content:encoded>
+            <author>brandon@tulbox.app (Brandon Johnson)</author>
         </item>
         <item>
             <title><![CDATA[TūlBOX V3]]></title>
             <link>https://zappbrandigan.github.io/blog/tulbox</link>
             <guid>https://zappbrandigan.github.io/blog/tulbox</guid>
             <pubDate>Thu, 12 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[TūlBOX v3 is Live!]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tūlbox-v3-is-live">TūlBOX v3 is Live!<a href="https://zappbrandigan.github.io/blog/tulbox#tu%CC%84lbox-v3-is-live" class="hash-link" aria-label="Direct link to TūlBOX v3 is Live!" title="Direct link to TūlBOX v3 is Live!">​</a></h2>
-<p>I'm excited to announce that <strong>TūlBOX v3</strong> is officially live!</p>
+            <description><![CDATA[TūlBOX v3 is officially live!]]></description>
+            <content:encoded><![CDATA[<p><strong>TūlBOX v3</strong> is officially live!</p>
 <p>This release brings a smoother experience, sharper performance, and improved APIs. The existing tools have been refined based on feedback from real-world use and the entire app has been rebuilt from the ground up. It is now ready to host additional tools as they get released!</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="whats-new-in-v3">What’s New in v3<a href="https://zappbrandigan.github.io/blog/tulbox#whats-new-in-v3" class="hash-link" aria-label="Direct link to What’s New in v3" title="Direct link to What’s New in v3">​</a></h3>
 <ul>
@@ -177,17 +182,7 @@ This post dives into the latest <strong>performance</strong> and <strong>usabili
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-this-matters">Why This Matters<a href="https://zappbrandigan.github.io/blog/tulbox#why-this-matters" class="hash-link" aria-label="Direct link to Why This Matters" title="Direct link to Why This Matters">​</a></h3>
 <p>This update makes it easier to add new tools that are in the works, such as CWR conversion and automated cue sheet stamping.</p>
 <p>This is a 00 release, so there will be blood! I mean bugs. Reach out if you run into anything weird.</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Welcome!]]></title>
-            <link>https://zappbrandigan.github.io/blog/welcome</link>
-            <guid>https://zappbrandigan.github.io/blog/welcome</guid>
-            <pubDate>Mon, 09 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Hi there — I’m so glad you’ve found your way here. This site is both a user guide for TūlBOX, a growing collection of automation tools, and a living knowledge base for topics in music publishing, royalty collection, and the business of rights management.]]></description>
-            <content:encoded><![CDATA[<p>Hi there — I’m so glad you’ve found your way here. This site is both a user guide for TūlBOX, a growing collection of automation tools, and a living knowledge base for topics in music publishing, royalty collection, and the business of rights management.</p>
-<p>A little about me: my background is in math and computer science — not music publishing. Like many who end up working behind the scenes in entertainment, I’ve had to pick up a lot on the fly. As I learn the ins and outs of music publishing on the job, I’ve been organizing what I’ve found helpful, confusing, or just worth remembering into notes, guides, and tools — and adding them here.</p>
-<p>Whether you’re new to music publishing, trying to automate a few tedious workflows, or just curious about how it all fits together, I hope this site helps make things a bit clearer.</p>
-<p>Thanks for stopping by!</p>]]></content:encoded>
+            <author>brandon@tulbox.app (Brandon Johnson)</author>
         </item>
     </channel>
 </rss>
