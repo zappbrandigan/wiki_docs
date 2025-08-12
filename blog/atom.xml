@@ -2,12 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zappbrandigan.github.io/blog</id>
     <title>TūlBOX Updates</title>
-    <updated>2025-08-01T00:00:00.000Z</updated>
+    <updated>2025-08-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zappbrandigan.github.io/blog"/>
     <subtitle>Updates and release notes for TūlBOX tools.</subtitle>
     <icon>https://zappbrandigan.github.io/img/favicon.svg</icon>
     <rights>Copyright © 2025 Brandon Johnson</rights>
+    <entry>
+        <title type="html"><![CDATA[Minor Accessibility Updates]]></title>
+        <id>https://zappbrandigan.github.io/blog/2025/08/12/update</id>
+        <link href="https://zappbrandigan.github.io/blog/2025/08/12/update"/>
+        <updated>2025-08-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Minor Update – Improved Tables, Accessibility, and AKAs]]></summary>
+        <content type="html"><![CDATA[<p><strong>Minor Update – Improved Tables, Accessibility, and AKAs</strong></p>
+<p>This is quick note on a few quality-of-life updates to keep your TūlBOX workflow smooth and efficient.</p>
+<p><strong>Sortable Tables</strong></p>
+<ul>
+<li>The file table in PDF Manager and the AKA tables in Production Search are now fully sortable. Quickly reorganize data to find exactly what you need.</li>
+</ul>
+<p><strong>Expanded AKA Results</strong></p>
+<ul>
+<li>The AKA limit in Production Search has been increased from 30 to 100.</li>
+</ul>
+<p><strong>Accessibility Enhancements</strong></p>
+<ul>
+<li>Production Search results and details now support tabbing and full keyboard navigation. You can move through results, open details, and even copy values — all without leaving the keyboard.</li>
+</ul>
+<p>These small but impactful changes should make searching, sorting, and navigating TūlBOX faster and more inclusive.</p>]]></content>
+        <author>
+            <name>Brandon Johnson</name>
+            <email>brandon@tulbox.app</email>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cue Sheet Converter (beta)]]></title>
         <id>https://zappbrandigan.github.io/blog/cue-sheet-converter</id>

@@ -4,11 +4,34 @@
         <title>TūlBOX Updates</title>
         <link>https://zappbrandigan.github.io/blog</link>
         <description>Updates and release notes for TūlBOX tools.</description>
-        <lastBuildDate>Fri, 01 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <copyright>Copyright © 2025 Brandon Johnson</copyright>
+        <item>
+            <title><![CDATA[Minor Accessibility Updates]]></title>
+            <link>https://zappbrandigan.github.io/blog/2025/08/12/update</link>
+            <guid>https://zappbrandigan.github.io/blog/2025/08/12/update</guid>
+            <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Minor Update – Improved Tables, Accessibility, and AKAs]]></description>
+            <content:encoded><![CDATA[<p><strong>Minor Update – Improved Tables, Accessibility, and AKAs</strong></p>
+<p>This is quick note on a few quality-of-life updates to keep your TūlBOX workflow smooth and efficient.</p>
+<p><strong>Sortable Tables</strong></p>
+<ul>
+<li>The file table in PDF Manager and the AKA tables in Production Search are now fully sortable. Quickly reorganize data to find exactly what you need.</li>
+</ul>
+<p><strong>Expanded AKA Results</strong></p>
+<ul>
+<li>The AKA limit in Production Search has been increased from 30 to 100.</li>
+</ul>
+<p><strong>Accessibility Enhancements</strong></p>
+<ul>
+<li>Production Search results and details now support tabbing and full keyboard navigation. You can move through results, open details, and even copy values — all without leaving the keyboard.</li>
+</ul>
+<p>These small but impactful changes should make searching, sorting, and navigating TūlBOX faster and more inclusive.</p>]]></content:encoded>
+            <author>brandon@tulbox.app (Brandon Johnson)</author>
+        </item>
         <item>
             <title><![CDATA[Cue Sheet Converter (beta)]]></title>
             <link>https://zappbrandigan.github.io/blog/cue-sheet-converter</link>
