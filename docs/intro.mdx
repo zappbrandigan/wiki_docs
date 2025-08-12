@@ -44,30 +44,38 @@ export default function IntroPage() {
       <section className={styles.section}>
         <h2 className={styles.h2}>Current Tools</h2>
         <div className={styles.grid3}>
+          <Link to="/pdf-manager/overview" style={{textDecoration: 'none'}}>
           <article className={styles.card}>
             <h3 className={styles.h3}>📂 PDF Manager</h3>
-            <p>Drag-and-drop uploads, smart batch renaming (regex-ready), duplicate detection, and one-click clean exports.</p>
+            <p>Smart batch renaming (regex-ready), duplicate detection, and one-click exports.</p>
           </article>
+          </Link>
+          <Link to="/prod-search/overview" style={{textDecoration: 'none'}}>
           <article className={styles.card}>
             <h3 className={styles.h3}>🎬 Production Search</h3>
-            <p>Aggregate film/TV/game data, cast &amp; crew info, AKA titles with transliteration, and copy-ready IMDb IDs.</p>
+            <p>Aggregate film/TV/game data, cast &amp; crew info, AKA titles with transliteration - all copy-ready.</p>
           </article>
+          </Link>
+          <Link to="/cwr-converter/overview" style={{textDecoration: 'none'}}>
           <article className={styles.card}>
             <h3 className={styles.h3}>📊 CWR Converter</h3>
             <p>Field tooltips, full-screen mode, global search, templated reports, and CSV export.</p>
           </article>
+          </Link>
+          <Link to="/cue-sheet-converter/overview" style={{textDecoration: 'none'}}>
           <article className={styles.card}>
           <h3 className={styles.h3}>🎼 Cue Sheet Converter</h3>
           <p>
-            Convert cue sheet PDFs into clean, structured data in seconds.
-            One-click CSV export for downstream workflows.
+            Convert cue sheet PDFs into clean, structured data in seconds with CSV export.
           </p>
         </article>
+        </Link>
         </div>
       </section>
       <section className={styles.section}>
         <h2 className={styles.h2}>On the Roadmap</h2>
         <ul className={styles.list}>
+          <li>User authentication</li>
           <li>Real-time search highlighting for PDF Manager</li>
           <li>New CWR Reports</li>
           <li>Cue Sheet Converter support for RapidCue</li>

@@ -3,7 +3,7 @@ title: Production Search Overview
 slug: overview
 ---
 
-# Production Search – Quick Start
+# Production Search - Quick Start
 
 The **Production Search** tool lets you look up films, series, episodes, and video games and explore rich metadata—without leaving TūlBOX.
 

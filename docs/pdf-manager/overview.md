@@ -4,7 +4,7 @@ slug: overview
 sidebar_position: 1
 ---
 
-# PDF Manager – Quick Start 
+# PDF Manager - Quick Start 
 
 The **PDF Manager** is designed to rename large batches of PDF files in seconds while maintaining consistent formatting and eliminating manual errors.  
 Whether you’re preparing cue sheets, reports, or any other bulk documents, the workflow is simple, fast, and flexible.

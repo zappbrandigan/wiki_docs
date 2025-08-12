@@ -3,7 +3,7 @@ title: CWR Converter Overview
 slug: overview
 ---
 
-# CWR Converter – Quick Start
+# CWR Converter - Quick Start
 
 Turn raw **Common Works Registration** (CWR v2.1 / v2.2) files into human‑readable tables and custom reports—all inside your browser.
 
