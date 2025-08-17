@@ -2,12 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zappbrandigan.github.io/blog</id>
     <title>TūlBOX Updates</title>
-    <updated>2025-08-12T00:00:00.000Z</updated>
+    <updated>2025-08-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zappbrandigan.github.io/blog"/>
     <subtitle>Updates and release notes for TūlBOX tools.</subtitle>
     <icon>https://zappbrandigan.github.io/img/favicon.svg</icon>
     <rights>Copyright © 2025 Brandon Johnson</rights>
+    <entry>
+        <title type="html"><![CDATA[New Navigation]]></title>
+        <id>https://zappbrandigan.github.io/blog/2025/08/18/update</id>
+        <link href="https://zappbrandigan.github.io/blog/2025/08/18/update"/>
+        <updated>2025-08-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New Navigation, Home Page & UI Enhancements]]></summary>
+        <content type="html"><![CDATA[<p><strong>New Navigation, Home Page &amp; UI Enhancements</strong></p>
+<p>Just rolled out some minor updates to make TūlBOX faster, cleaner, and easier to use.</p>
+<p><strong>✨ UI Improvements</strong></p>
+<p>Small design tweaks across the app improve clarity and consistency. Buttons, spacing, and layout adjustments should make everything feel smoother without changing your workflow.</p>
+<p><strong>⌨️ Navigation Hotkeys</strong></p>
+<p>You can now jump directly to your favorite tools using keyboard shortcuts. No more clicking through menus—navigate instantly.</p>
+<p><strong>🔗 Direct URLs with React Router</strong></p>
+<p>Tools now have direct URLs! That means you can bookmark or share links to specific tools, and load them directly without going through the homepage.</p>
+<p><strong>🏠 New Home &amp; Info Page</strong></p>
+<p>Added a new landing page that highlights recent updates and provides a product roadmap.</p>
+<hr>
+<p>These updates make TūlBOX more seamless for both new and power users. More refinements are on the way—stay tuned!</p>]]></content>
+        <author>
+            <name>Brandon Johnson</name>
+            <email>brandon@tulbox.app</email>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Minor Accessibility Updates]]></title>
         <id>https://zappbrandigan.github.io/blog/2025/08/12/update</id>
@@ -19,6 +42,10 @@
 <p><strong>Sortable Tables</strong></p>
 <ul>
 <li>The file table in PDF Manager and the AKA tables in Production Search are now fully sortable. Quickly reorganize data to find exactly what you need.</li>
+</ul>
+<p><strong>Transliteration in PDF Manager</strong></p>
+<ul>
+<li>The cue sheet templates <code>CUE_SHEET</code> and <code>CUE_SHEET_NO_EP</code> now transliterate foreign languages (removes accent marks, etc.). This will help ensure special characters are not inluded in your file names.</li>
 </ul>
 <p><strong>Expanded AKA Results</strong></p>
 <ul>
