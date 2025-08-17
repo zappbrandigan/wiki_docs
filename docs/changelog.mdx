@@ -1,0 +1,225 @@
+---
+id: changelog
+title: Changelog
+slug: /changelog
+toc_max_heading_level: 2
+---
+
+All notable changes to **TūlBOX**. Commit shas are abbreviated.
+
+## [3.5.1]
+
+### Fixed
+- Home page: dark mode styles. (01efa3a)
+
+## [3.5.0]
+
+### Added
+- React Router support; new hotkeys for page navigation; new Home page. (acd3770)
+
+### Changed
+- Header navigation: removed icons. (acd3770)
+- Footer UI updates. (acd3770)
+
+## [3.4.6]
+
+### Added
+- CWR Converter: IP Report. (45715ca)
+
+### Fixed
+- Warnings modal: virtualized list rendering. (8781744)
+- Catalog import report: null values in CAT import. (7c9ffbd)
+- PDF Manager: show a toast on clipboard copy. (efdd3d7)
+
+### Changed
+- CWR templates: remove **batch-report**, add **works-report**; CWR UI readability tweaks. (9e0c000)
+- Dependencies: bump `cwr-parser`. (134159f)
+- CAT import template version bump. (323184f)
+- Dotify: title case behavior for episode titles. (3ca4c1c)
+
+---
+
+## [3.4.5]
+
+### Added
+- PDF Manager: “Copy filename to clipboard” from file table rows. (13ecfbe)
+- PDF Manager: add sort functionality. (0f11d74)
+- AKA table: add sort functionality. (0f11d74)
+
+### Changed
+- PDF Manager: transliteration support for cue sheet templates. (fc55956)
+- Catalog Import Report: update to internal specs; error messages now surface from CWR report generators. (e3d0957)
+
+### Fixed
+- Production Search: results were not in tab order. (8b6fec9)
+- AKA report: API return limit too low (some AKAs were missed). (0a65687)
+
+
+---
+
+## [3.4.4]
+
+### Added
+- Tooling: **Cue Sheet Converter** added to TūlBOX. (1f0a6c3)
+
+### Fixed
+- Docs: broken link. (e915f34)
+- PDF Manager: inline edit resized table columns unexpectedly. (cbf35b5)
+- CWR: path resolution error in `tracker.ts`. (c46c767)
+- CWR Batch report: hotfix for incomplete merges. (8a8ca8d)
+- Inputs: opt-in/out hotkey behavior corrected. (866538a)
+- Title case: handle prepositions at end with articles. (3a48e31)
+- Escape shortcut: reliably hides input across browsers. (eb67bae)
+- Title case: respect parentheses. (97887db)
+- Cue Sheet Converter: clear error state when a new file loads. (7f5fe4d)
+- Cue Sheet Converter: show either instruction or error panel (not both). (c358084)
+- Cue Sheet templates: restore missing role column. (2ea09f1)
+- Production Search: add error message for failures. (5d9c53f)
+- Shortcuts: prevent duplicate global listeners. (78dff02)
+- Nav: forwardRef issue with docs link in nav. (3bf68c0)
+- Mobile nav: inconsistent highlighting. (3d5669f)
+
+### Changed
+- UI polish: scrollbar styles; remove unnecessary padding. (90c9eac)
+- Cue Sheet Converter template: include Work Type. (9e1f873)
+- PDF Manager: expand inline edit click target. (996590e)
+- PDF Manager: copy/paste icon indicator in results. (a312283)
+- Event logging updates & custom event support. (6319b26, 506581f)
+- IMDb tool naming & shortcuts modal. (617564f, 860d120, ea6635a)
+- Refactors: `SearchReplace`, `useShortcut`, component structure. (57e83e8, e169dae, 465e1d2)
+- Session/logging tweaks. (a859864, 03a9c24)
+- Dark mode text in Cue Sheet parser. (b67253d)
+
+---
+
+## [3.4.3]
+
+### Fixed
+- CWR: reduce max file size to prevent crashes. (4b3f530)
+
+---
+
+## [3.4.2]
+
+### Fixed
+- Parser Worker: enforce memory limit. (1a6bce5)
+- CWR parsing UX: add small initial delay to progress bar for stability. (85afa13)
+
+---
+
+## [3.4.1]
+
+### Fixed
+- CWR search: avoid tab crashes on very large files with many matches. (f1734d6)
+
+---
+
+## [3.4.0]
+
+### Added
+- CWR Raw View: pseudo full-screen; custom search; toggleable tooltips. (2628771, b7eca01)
+
+### Changed
+- **Performance**: move CWR processing to Web Workers; virtualize raw and report tables; add analytics events. (8bc22ea)
+- CWR: add Message Records report. (379a733)
+
+### Fixed
+- Dev analytics behavior. (b7a033e)
+- Large-file processing: chunked parsing & `useTransition`. (dbac5e3, 2c09129)
+
+---
+
+## [3.3.6]
+
+### Added
+- IMDb: poster loading animation; IMDBSearch refactor. (20593db)
+
+---
+
+## [3.3.5]
+
+### Changed
+- Event tracking and Vite upgrades. (b089549, 8656f3d)
+
+---
+
+## [3.3.4]
+
+### Fixed
+- Dotify: `toLocalLowerCase` → `toLowerCase`. (07914b1)
+
+---
+
+## [3.3.3]
+
+### Fixed
+- Episode titles: ensure proper title case when input is ALL CAPS; add email template for bug/feedback. (f75598f)
+
+---
+
+## [3.3.2]
+
+### Changed
+- Footer links and `.gitignore` cleanup. (a00bdd6, bdf1c91)
+
+---
+
+## [3.3.1]
+
+### Fixed
+- Layout: navigation padding; add footer. (863a9f6)
+
+---
+
+## [3.3.0]
+
+### Changed
+- Minor UI updates; fix type conversions in CWR reporter. (23b7141)
+
+### Fixed
+- Export now in Web Worker; remove XLSX option. (2db07b3)
+- CWR screen-view event name. (7f8db54)
+
+---
+
+## [3.2.2]
+
+### Fixed
+- IMDb AKA “click to copy”: order and clipboard extraction. (f0b136e)
+
+---
+
+## [3.2.1]
+
+### Fixed
+- AKA report: ensure unique titles; add NAT record support via `cwr-parser`. (59d1c99)
+
+---
+
+## [3.2.0]
+
+### Added
+- API proxy for external services. (ee024b7)
+
+### Fixed
+- CWR: propagate file name to report generator. (d3cb48b)
+
+### Changed
+- Docs/readme and misc cleanups. (d196811, 1501000, 32a4d0f, 8972404, f11bb56, 4aa76df)
+
+---
+
+## [3.1.0]
+
+### Added
+- **CWR Converter tool** with raw viewer, report generation, and export options. (75f04f4 merge)
+- Works Report: `setupNote` / `titleNote` columns; AKA Title Report. (289e23f, e2cdf84)
+
+### Changed
+- Update CWR record fields to v2.2. (2110c49)
+
+---
+
+### Earlier
+- Initial CWR Converter work and refactors. (4ba404e, 87af9c5, 8b31dd5)
+

@@ -2,6 +2,7 @@
 sidebar_position: 1
 title: Introduction
 slug: /
+hide_table_of_contents: true
 ---
 
 import React from 'react';
@@ -47,7 +48,7 @@ export default function IntroPage() {
           <Link to="/pdf-manager/overview" style={{textDecoration: 'none'}}>
           <article className={styles.card}>
             <h3 className={styles.h3}>📂 PDF Manager</h3>
-            <p>Smart batch renaming (regex-ready), duplicate detection, and one-click exports.</p>
+            <p>Smart batch renaming (regex support), duplicate detection, inline-editing, and one-click exports.</p>
           </article>
           </Link>
           <Link to="/prod-search/overview" style={{textDecoration: 'none'}}>
@@ -73,14 +74,6 @@ export default function IntroPage() {
         </div>
       </section>
       <section className={styles.section}>
-        <h2 className={styles.h2}>On the Roadmap</h2>
-        <ul className={styles.list}>
-          <li>User authentication</li>
-          <li>Real-time search highlighting for PDF Manager</li>
-          <li>New CWR Reports</li>
-          <li>Cue Sheet Converter support for RapidCue</li>
-          <li>Cue sheet stamping tool</li>
-        </ul>
         <div className={styles.ctaBox}>
           💡 Have an idea? Email <strong>brandon@tulbox.app</strong> or use the in-app <em>Feedback</em> link.
         </div>

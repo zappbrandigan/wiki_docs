@@ -12,9 +12,10 @@ The table below shows the current availability of CWR-related reports in TūlBOX
 | Report Name | Status |
 |-------------|--------|
 | **Message Records** | ✅ Live |
-| **AKA Report** | ✅ Live |
-| **ISRC Report** | ✅ Live |
-| **Batch Report** | 🔄 In Progress |
+| **AKA Titles** | ✅ Live |
+| **ISRCs** | ✅ Live |
+| **Interested Parties** | ✅ Live |
+| **Work Report** | 🔄 In Progress |
 | **Cat Import** | 🔄 In Progress |
 | **AOR Report** | 🗓️ Planned |
 

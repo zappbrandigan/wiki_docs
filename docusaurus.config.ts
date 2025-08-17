@@ -45,6 +45,7 @@ const config: Config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
           routeBasePath: '/blog',
+          blogSidebarCount: 10,
         },
         theme: {
           customCss: './src/css/custom.css',
