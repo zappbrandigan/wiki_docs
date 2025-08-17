@@ -43,6 +43,7 @@
 <ul>
 <li>The file table in PDF Manager and the AKA tables in Production Search are now fully sortable. Quickly reorganize data to find exactly what you need.</li>
 </ul>
+<div style="display:flex;justify-content:center;margin:2rem 0"><img src="https://zappbrandigan.github.io/img/2025-08-18.gif" alt="Sortable Table Example" role="button" aria-pressed="false" style="max-width:80%;height:auto;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.15);cursor:zoom-in"></div>
 <p><strong>Transliteration in PDF Manager</strong></p>
 <ul>
 <li>The cue sheet templates <code>CUE_SHEET</code> and <code>CUE_SHEET_NO_EP</code> now transliterate foreign languages (removes accent marks, etc.). This will help ensure special characters are not inluded in your file names.</li>
