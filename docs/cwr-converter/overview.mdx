@@ -5,57 +5,55 @@ slug: overview
 
 import ClickToZoom from '@site/src/components/ClickToZoom';
 
-# CWR Converter - Quick Start
+# CWR Converter- Quick Start
 
-Turn raw **Common Works Registration** (CWR v2.1 / v2.2) files into human‑readable tables and custom reports—all inside your browser.
+Turn raw **Common Works Registration** (CWR v2.1 / v2.2) files into human-readable tables and custom reports—all inside your browser.
 
 ## Example Workflow
 <ClickToZoom src="/img/cwr-converter.gif" alt="CWR Converter Example Usage" />
 
 ---
 
-## 1 · Upload a CWR file
+## 1 · Upload a CWR file
 
-* Drag‑and‑drop or **Browse** for a `.v21` or `.v22` file (up to 100 MB).
+* Drag-and-drop or **Browse** for a `.v21` or `.v22` file (up to 100 MB).
 * The parser validates the header and record structure before rendering.
 
-> **Heads‑up:** Large files parse synchronously—keep the tab in focus to avoid throttling.
+> **Heads-up:** Large files parse synchronously—keep the tab in focus to avoid throttling.
 
 :::warning
 
-All processing happens entirely in your browser, so your data never leaves your machine. Because everything runs locally, the maximum file size the tool can handle depends on your computer’s memory and processing power. A typical work-issued PC can handle ~100Mb. If you have files larger than this, reach out, or download the CLI version.
+All processing happens entirely in your browser, so your data never leaves your machine. Because everything runs locally, the maximum file size the tool can handle depends on your computer's memory and processing power. A typical work-issued PC can handle ~100Mb. If you have files larger than this, reach out, or download the CLI version.
 
 :::
 
 ---
 
-## 2 · Explore in **Raw Viewer**
+## 2 · Explore in **Raw Viewer**
 
 | Feature                 | What it does                                                                                                      |
-| ----------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **Field‑info tooltips** | Hover any cell to see the CWR spec name, length, and description. Toggle on/off in the toolbar.                   |
-| **Full‑screen mode**    | Click **Maximise** to dedicate the full viewport to the raw grid—ideal for multi‑monitor setups.                  |
+|----------------------- |----------------------------------------------------------------------------------------------------------------- |
+| **Field-info tooltips** | Hover any cell to see the CWR spec name, length, and description. Toggle on/off in the toolbar.                   |
+| **Full-screen mode**    | Click **Maximise** to dedicate the full viewport to the raw grid—ideal for multi-monitor setups.                  |
 | **Global search**       | Find any text across *all* records (supports RegExp). Matches are highlighted and the grid scrolls automatically. |
-| **Lazy rendering**      | Rows are virtualized, so even 100k‑line files stay snappy.                                                        |
+| **Lazy rendering**      | Rows are virtualized, so even 100k-line files stay snappy.                                                        |
 
 ---
 
-## 3 · Generate a report
+## 3 · Generate a report
 
 1. Open the **Report Generator** panel.
-2. Pick a **template** (e.g. *ISRC Report*, *Batch Report*, *Cat Import*). Templates are versioned and updated automatically.
-3. **Runs Automatically** – the tool walks the CWR hierarchy and flattens the data into a tabular view.
+2. Pick a **template** (e.g. *ISRCs*, *Interested Parties*, *Cat Import*). Templates are versioned and updated automatically.
+3. **Runs Automatically** - the tool walks the CWR hierarchy and flattens the data into a tabular view.
 
 ### Report-Specific logic
 
 Most reports simply use the data as provided in the CWR file. Any reports that have additional logic applied will be listed here:
 
-* **Batch Report**
-    * **SPU/SWR grouping**: Publishers are grouped with their writers by sequence, collapsing identical IPNs and recalculating shares on the fly.
-    * **OPU ⇄ OWR pairing**: Since PWRs are optional for OPUs, uncontrolled publishers are matched to writers by order of appearance, filling writer PR share until the publisher’s quota is met.
-    * **Additional Columns**: This report contains columns that are not present in CWR files.
 * **Cat Import**
     * This report is currenlty in development.
+    * Data is repeated as necessary based on AKAs.
+    * Composer percentages are adjusted by `0.01` up or down if necessary.
 
 > Want a different aggregation? Fork an existing template or send a feature request—basic templates are just TypeScript object definitions.
 
@@ -79,23 +77,18 @@ Most reports simply use the data as provided in the CWR file. Any reports that h
 
 ---
 
-## 4 · Export
+## 4 · Export
 
-Click **Export → CSV** to download the current report. Column headers follow the template spec and data types are preserved (e.g. sequences are considered numeric in the CWR spec and will treated as a number on export).
+Click **Export → CSV** to download the current report. Column headers follow the template spec and data types are preserved (e.g. sequences are considered numeric in the CWR spec and will treated as a number on export).
 
 ---
-
-## Tips & Tricks
-
-* **Keyboard shortcuts** – `⌘/^ + f` toggles search, `⌘/^ + e`, and `⌘/^ + k` shows/hides field‑info tooltips.
-* **CLI** - There is a CLI version of this tool that can handle any file sizes that are too large for your browser.
 
 ## Upcoming Features
 
-* **Template diffing** – Hover the template name to see its changelog.
-* **Errors/Warning View** – Click the errors/warnings at the bottom of the report or raw view to see the details.
+* **Template diffing** - Hover the template name to see its changelog.
+* **Errors/Warning View** - Click the errors/warnings at the bottom of the report or raw view to see the details.
 
 ---
 
-Need a custom report or run into a parsing edge‑case?
+Need a custom report or run into a parsing edge-case?
 📧 **[brandon@tulbox.app](mailto:brandon@tulbox.app)** · *Subject: CWR Tool Feedback*
