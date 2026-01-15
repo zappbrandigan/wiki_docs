@@ -1,0 +1,39 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.card {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  padding: 16px;
+  background: var(--ifm-background-color);
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.summary {
+  margin: 0 0 12px;
+  color: var(--ifm-color-emphasis-800);
+  line-height: 1.5;
+}
+
+.download {
+  display: inline-block;
+  font-weight: 600;
+}
+
+.muted {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.95rem;
+}
+
+.status {
+  color: var(--ifm-color-emphasis-700);
+}
