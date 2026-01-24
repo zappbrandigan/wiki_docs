@@ -18,8 +18,8 @@ Additionally, because some words function as articles in one language but not in
 | Language | Articles |
 | -------- | --------- |
 | English | a, an, the |
-| Spanicsh | el, la, los, las, un, una, unos, unas |
-| French | le, la, les, un, une, des, l' |
+| Spanich | el, la, lo, los, las, un, una, unos, unas |
+| French | le, la, les, un, une, l' |
 
 If you work with other languages and would like support for additional articles, feel free to request them.
 If enough people ask, I may even consider paying for something. Maybe.

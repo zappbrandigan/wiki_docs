@@ -61,55 +61,55 @@ const config: Config = {
         alt: 'TūlBOX Docs',
         src: 'img/logo.svg',
       },
-      items: [
-        { to: '/blog', label: 'Updates', position: 'left' },
-        {
-          href: 'https://tulbox.app',
-          label: 'TūlBOX',
-          position: 'right',
-        },
-      ],
+      // items: [
+      //   { to: '/blog', label: 'Updates', position: 'left' },
+      //   {
+      //     href: 'https://tulbox.app',
+      //     label: 'TūlBOX',
+      //     position: 'right',
+      //   },
+      // ],
     },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Documentation',
-              to: '/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Docusaurus',
-              href: 'https://docusaurus.io',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com',
-            },
-            {
-              label: 'TūlBOX',
-              href: 'https://tulbox.app',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Updates',
-              to: '/blog',
-            },
-          ],
-        },
-      ],
-    },
+    // footer: {
+    //   style: 'dark',
+    //   links: [
+    //     {
+    //       title: 'Docs',
+    //       items: [
+    //         {
+    //           label: 'Documentation',
+    //           to: '/',
+    //         },
+    //       ],
+    //     },
+    //     {
+    //       title: 'Community',
+    //       items: [
+    //         {
+    //           label: 'Docusaurus',
+    //           href: 'https://docusaurus.io',
+    //         },
+    //         {
+    //           label: 'GitHub',
+    //           href: 'https://github.com',
+    //         },
+    //         {
+    //           label: 'TūlBOX',
+    //           href: 'https://tulbox.app',
+    //         },
+    //       ],
+    //     },
+    //     {
+    //       title: 'More',
+    //       items: [
+    //         {
+    //           label: 'Updates',
+    //           to: '/blog',
+    //         },
+    //       ],
+    //     },
+    //   ],
+    // },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,

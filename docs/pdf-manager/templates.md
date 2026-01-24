@@ -100,13 +100,21 @@ After:  MARY HAD A LITTLE LAMB   And No One Talks. . .  Ep No. 1001
 
 ---
 
-## 💡 Pro tips
-- Test on a small batch before running on 100+ files.
-- Use **regex groups** like `$1`, `$2`, `$3` to rearrange text without losing parts.
-- Regex is **case-sensitive** unless you check the “Ignore Case” option.
-- Use the **shortcut keys**!
+## 💡 Common regex symbols (JavaScript)
+- `.` — any single character except newlines (unless `s` flag is on); `a.c` matches `abc` or `a-c`.
+- `*` — 0 or more of the previous token; `ab*` matches `a`, `ab`, `abbb`.
+- `+` — 1 or more of the previous token; `\d+` matches `7` or `123`.
+- `?` — 0 or 1 of the previous token (makes it optional); `colou?r` matches `color` or `colour`.
+- `{n}` — exactly n repeats; `{n,}` — n or more; `{n,m}` — between n and m; `\d{4}` matches `2025`.
+- `^` — start of string/line; `$` — end of string/line; `^Intro` matches only if the line starts with `Intro`.
+- `\d` digit, `\w` word character (letters/numbers/underscore), `\s` whitespace; `\w+\s\w+` matches two words.
+- `[abc]` any of these characters; `[a-z]` ranges; `[^...]` negated class; `[^0-9]+` matches non-digits.
+- `|` alternation (OR) between patterns; `cat|dog` matches `cat` or `dog`.
+- `()` capturing group; `(?:)` non-capturing group; `(ep)\s(\d+)` captures `ep` and the number.
+- `(?=...)` positive lookahead; `(?!...)` negative lookahead; `\d(?=pm)` matches digits before `pm`.
+- `\b` word boundary; `\B` non-boundary; `\bcat\b` matches whole word `cat`.
+- Escape special characters with `\` like `\.` or `\+` to match them literally; `v1\.2` matches `v1.2`.
 
 ---
 
 If you need a new preset template, reach out via the TūlBOX support links!
-
