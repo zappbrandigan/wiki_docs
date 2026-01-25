@@ -213,7 +213,11 @@ export default function ExcelScriptsList(): JSX.Element {
               : 'Description unavailable.'}
           </p>
           {item.downloadUrl ? (
-            <a className={styles.download} href={item.downloadUrl}>
+            <a
+              className={styles.download}
+              href={item.downloadUrl}
+              download
+            >
               Download
             </a>
           ) : (
